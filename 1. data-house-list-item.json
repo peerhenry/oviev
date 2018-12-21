@@ -1,0 +1,24 @@
+{
+  "HouseCode": "AT-2572-01",
+  "Country": "AT",
+  "Region": "nie",
+  "ParkCode": "",
+  "Brands": [
+    {
+      "SequenceNumber": 1,
+      "Brand": "BV"
+    }
+  ],
+  "SalesCurrencies": [
+    "EUR"
+  ],
+  "HouseType": "Chalet",
+  "SkiArea": "",
+  "Pets": "no",
+  "Pool": "no",
+  "MaxNumberOfPersons": 5,
+  "NumberOfStars": 3,
+  "WGS84Latitude": 48.019087,
+  "WGS84Longitude": 15.893185,
+  "RealOrTest": "Real"
+}

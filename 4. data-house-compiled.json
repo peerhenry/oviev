@@ -1,0 +1,71 @@
+{
+  "Title": "Chalet huren in Kaumberg, max 5personen",
+  "Description": "Een charmant chalet  voor 5 personen met een groot overdekt priv\u00e9terras midden in de bossen van Kaumberg nabij Wenen. \nVerblijf in een sfeervol chalet met een ruime woonkamer met een slaapbank en twee slaapkamers beide met een tweepersoonsbed.  Alle traditioneel ingericht. De vakantiewoning heeft een wasmachine, gratis WIFI en de badkamer is uitgerust met een ligbad, douche, wastafel en toilet. Direct bij het vakantiechalet kunt u de auto parkeren in de garage of onder de carport. Zo kunt u met de auto gemakkelijk en snel de gevarieerde omgeving van Kaumberg ontdekken.\n\nDe omgeving is wat dit vakantiehuis zo bijzonder maakt. Het chalet ligt in het Oostenrijkse Mostviertel met een prachtig landschap waar u vele kasteelru\u00efnes vindt. Op 35 minuten rijden ligt de historische stad Wenen, waar u een bezoek kunt brengen aan het beroemde Sissi museum, het Hofburg Paleis en het romantische park Belv\u00e9d\u00e8re. Vanuit de woning kunt u ook een bezoek brengen aan het Mayerling jachtslot of het grote Neusiedlersee, een prachtig steppemeer op de grens van Oostenrijk en Hongarije. Een zeer geschikte woning voor een verblijf waarbij natuur en cultuur hand in hand gaan.  \n",
+  "meta": "Chalet huren voor 5personen in Kaumberg, Nieder\u00f6sterreich / Wenen, Oostenrijk",
+  "MinMaxPrice": [
+    {
+      "Period": "1 Week",
+      "MinPrice": 631,
+      "MaxPrice": 814
+    },
+    {
+      "Period": "2 Weeks",
+      "MinPrice": 1229,
+      "MaxPrice": 1595
+    },
+    {
+      "Period": "3 Weeks",
+      "MinPrice": 1827,
+      "MaxPrice": 2377
+    }
+  ],
+  "Area": 100,
+  "Bathrooms": 1,
+  "Bedrooms": 2,
+  "CreationDate": "2008-07-04",
+  "Location": {
+    "Address": {
+      "PostalCode": "2572",
+      "Country": "Oostenrijk",
+      "Region": "Nieder\u00f6sterreich / Wenen"
+    },
+    "Latitude": 15.893185,
+    "Longitude": 48.019087
+  },
+  "PropertyId": "AT-2572-01",
+  "Images": [
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415426806550.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415930708253.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415863047329.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415490414618.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415453612577.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20150518253201685208.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120291567064.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20141112354838728296.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_201501148422441437.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415832070723.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415663055275.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2017121952300424640.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2017121952301346333.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415522924791.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415978946247.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20150518270487067276.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2016072738072639900.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415707898744.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415756363517.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415781858464.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415811809660.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415408165553.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20140224871242514171.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20140224871227023947.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20150518270373529328.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012416315646758.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014101427507518965.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120291147248.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012416341580547.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012416295733663.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415382869475.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120284592242.jpg",
+    "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120293491888.jpg"
+  ]
+}
