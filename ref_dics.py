@@ -1,5 +1,6 @@
 import json
 import refRegionCompiler
+import refPropertyTypesCompiler
 import refPropertiesCompiler
 import refLayoutItemsCompiler
 import refLayoutDetailsCompiler
@@ -8,6 +9,7 @@ class RefDics:
   def __init__(self, fetcher):
     self.fetcher = fetcher
     self.regions = self.generateRefRegions()
+    self.propertyTypes = self.generateRefPropertyTypes()
     self.properties = self.generateRefProperties()
     self.layoutItems = self.generateRefLayoutItems()
     self.layoutDetails = self.generateRefLayoutDetails()
@@ -24,6 +26,10 @@ class RefDics:
     result = self.fetcher.simpleFetchMethod('ReferenceRegionsV1')
     return refRegionCompiler.compile(result)
   
+  def generateRefPropertyTypes(self):
+    result = self.fetcher.simpleFetchMethod('ReferencePropertiesV1')
+    return refPropertyTypesCompiler.compile(result)
+
   def generateRefProperties(self):
     result = self.fetcher.simpleFetchMethod('ReferencePropertiesV1')
     return refPropertiesCompiler.compile(result)
@@ -45,6 +51,9 @@ class RefDics:
 
   def resolveRegion(self, number):
     return self.resolve(number, self.regions, 'regions')
+
+  def resolvePropertyType(self, number):
+    return self.resolve(number, self.regions, 'property types')
 
   def resolveProperty(self, number):
     return self.resolve(number, self.properties, 'properties')

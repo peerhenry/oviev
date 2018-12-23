@@ -1,3 +1,41 @@
+validLayoutItems = [
+  '10400', # Zwembar
+  '10358', #  Tuin
+  '10150', # Afwasmachine  
+  '10040', # Open haard
+  '10354', # Airconditioning
+  '10255', # Wasmachine
+  '10362', # BBQ  
+  '10130', # Oven  
+  '10140', # Magnetron  
+  '10560', # Kinderstoel	10560
+  '10550', # Kinderbed
+  '10570', # Kinderbox
+  '3000', # Skiberging
+  '10540', # Fietsen beschikbaar  
+  '1170', # Jacuzzi / Bubbelbad  
+  '1150', # Sauna  
+  '1160', # Turks stoombad  
+  '10235' # Zonnebank / solarium
+]
+
+validProperties = [
+  '390', # Op vakantiepark  
+  '370', # In de bergen  
+  '394', # Aan de skipiste
+  '360', # Landelijk    
+  '504', # Roken toegestaan
+  '502', # Niet roken
+  '65', # Minder validen  - lift
+  '64', # Aangepast toilet  
+  '63', # Aangepaste douche  
+  '6070', # Brede doorgang mindervaliden  
+]
+
+validPropertyTypes = [
+  '60' # Gecertificeerd voor mindervaliden  
+]
+
 def jsonHasKeys(jsonData, keys):
   for key in keys:
     if key not in jsonData:
@@ -59,24 +97,35 @@ def compileHouseData(house, houseExtra, refDics):
   for amn in costsOnSite:
     compiledCostsOnSite.append(amn['Description']+' '+amn['Value'])
   
+  amenities = []
+  
   compiledPropertiesV1 = [] # todo: use refDics.properties
   for entry in properties:
+    typenr = entry['TypeNumber']
+    if str(typenr) in validPropertyTypes:
+      pType = refDics.resolvePropertyType(typenr)
+      amenities.append(pType)
     for c in entry['TypeContents']:
       thing = refDics.resolveProperty(c)
       compiledPropertiesV1.append(thing)
+      if str(c) in validProperties:
+        amenities.append(thing)
 
   compiledLayoutExtendedV2 = [] # todo: use refDics.layoutItems & refDics.layoutDetails
   for entry in layout:
     itemKey = entry['Item']
     item = refDics.resolvelayoutItem(itemKey)
     thing = {
-      'Item': item,
-      'Details': []
+      'Item': item
     }
+    if str(itemKey) in validLayoutItems:
+      amenities.append(item)
     if 'Details' in entry:
+      thing['Details'] = []
       for detailKey in entry['Details']:
         detail = refDics.resolveLayoutDetail(detailKey)
         thing['Details'].append(detail)
+    compiledLayoutExtendedV2.append(thing)
 
   compiled = { 'Title': title }
   compiled['Description'] = langData['Description']
@@ -120,9 +169,10 @@ def compileHouseData(house, houseExtra, refDics):
       urls = extractImageUrls(thing)
       compiled['Images'] = urls
   
-  compiled['CostsOnSite'] = compiledCostsOnSite
-  compiled['PropertiesV1'] = compiledPropertiesV1
-  compiled['LayoutExtendedV2'] = compiledLayoutExtendedV2
+  compiled['CostsOnSite'] = compiledCostsOnSite # debug
+  compiled['PropertiesV1'] = compiledPropertiesV1 # debug
+  compiled['LayoutExtendedV2'] = compiledLayoutExtendedV2 # debug
+  compiled['Amenities'] = amenities
 
   return compiled
 

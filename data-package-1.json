@@ -92,7 +92,107 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "gang"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "eetkamer"
+        },
+        {
+          "Item": "kitchenette"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "garage"
+        },
+        {
+          "Item": "carport"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "TV",
+          "Details": [
+            "satelliet"
+          ]
+        },
+        {
+          "Item": "oven",
+          "Details": [
+            "grilloven",
+            "mini"
+          ]
+        },
+        {
+          "Item": "ligbad"
+        },
+        {
+          "Item": "bad met douche"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine"
+        },
+        {
+          "Item": "verwarming",
+          "Details": [
+            "CV"
+          ]
+        },
+        {
+          "Item": "terras",
+          "Details": [
+            "priv\u00e9",
+            "overdekt"
+          ]
+        },
+        {
+          "Item": "tuin",
+          "Details": [
+            "priv\u00e9"
+          ]
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "parking"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "Niet roken",
+        "oven",
+        "wasmachine",
+        "tuin"
+      ]
     },
     {
       "Title": "Holiday home huren in Litschau, max 6 personen",
@@ -188,7 +288,128 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "Op de 1e etage"
+        },
+        {
+          "Item": "hal"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "speelkamer",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "1-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "TV",
+          "Details": [
+            "satelliet"
+          ]
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "balkon of terras"
+        },
+        {
+          "Item": "verwarming"
+        },
+        {
+          "Item": "tuin"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "zwembad",
+          "Details": [
+            "gedeeld met andere gasten",
+            "geopend van 1/2 Mei  t/m  Sep"
+          ]
+        },
+        {
+          "Item": "tennisbaan",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "speeltoestellen"
+        },
+        {
+          "Item": "tafeltennistafel"
+        },
+        {
+          "Item": "fietsen beschikbaar",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "kinderbed"
+        },
+        {
+          "Item": "kinderstoel"
+        }
+      ],
+      "Amenities": [
+        "Op vakantiepark",
+        "Niet roken",
+        "tuin",
+        "zwembad",
+        "fietsen beschikbaar",
+        "kinderbed",
+        "kinderstoel"
+      ]
     },
     {
       "Title": "Chalet huren in Molln-Ramsau, max 4 personen",
@@ -283,7 +504,98 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "TV",
+          "Details": [
+            "kabel",
+            "flatscreen"
+          ]
+        },
+        {
+          "Item": "kachel",
+          "Details": [
+            "hout",
+            "tegel"
+          ]
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "elektrisch"
+          ]
+        },
+        {
+          "Item": "koffiezetapparaat",
+          "Details": [
+            "cups"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "bad met douche"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "verwarming",
+          "Details": [
+            "hout"
+          ]
+        },
+        {
+          "Item": "terras"
+        },
+        {
+          "Item": "tuin"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "kinderbed"
+        },
+        {
+          "Item": "haardroger"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "Niet roken",
+        "oven",
+        "tuin",
+        "kinderbed"
+      ]
     },
     {
       "Title": "Apartment huren in Hinterstoder, max 4 personen",
@@ -376,7 +688,107 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 1e etage"
+        },
+        {
+          "Item": "Kelder"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "woonkeuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "skiberging"
+        },
+        {
+          "Item": "1-pers. bed"
+        },
+        {
+          "Item": "1-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "2 kookplaten"
+          ]
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche",
+          "Details": [
+            "buiten"
+          ]
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "tuin"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "BBQ"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "zwembad",
+          "Details": [
+            "priv\u00e9",
+            "9 x  4 m.",
+            "geopend van Mei  t/m  1/2 Sep"
+          ]
+        },
+        {
+          "Item": "speeltoestellen"
+        },
+        {
+          "Item": "kinderbed"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "In de bergen > 1000 m.",
+        "Niet roken",
+        "skiberging",
+        "tuin",
+        "BBQ",
+        "zwembad",
+        "kinderbed"
+      ]
     },
     {
       "Title": "Apartment huren in Gosau, max 12 personen",
@@ -497,7 +909,148 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 4e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine"
+      ]
     },
     {
       "Title": "Apartment huren in Gosau, max 14 personen",
@@ -618,7 +1171,160 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 4e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine"
+      ]
     },
     {
       "Title": "Apartment huren in Gosau, max 10 personen",
@@ -739,7 +1445,127 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 4e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "stapelbed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine"
+      ]
     },
     {
       "Title": "Apartment huren in Gosau, max 12 personen",
@@ -860,7 +1686,154 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 4e etage"
+        },
+        {
+          "Item": "Op de 5e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "woon/slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "stapelbed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine"
+      ]
     },
     {
       "Title": "Apartment huren in Gosau, max 14 personen",
@@ -981,7 +1954,170 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 4e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "stapelbed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "wasdroger",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine",
+        "wasmachine"
+      ]
     },
     {
       "Title": "Apartment huren in Gosau, max 14 personen",
@@ -1102,7 +2238,2921 @@
         "Niet roken",
         "WiFi"
       ],
-      "LayoutExtendedV2": []
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 4e etage"
+        },
+        {
+          "Item": "Op de 5e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "woon/slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "stapelbed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "wasdroger",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine",
+        "wasmachine"
+      ]
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 12 personen",
+      "Description": "Centraal gelegen in de Salzkammergut, tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden ligt het gezellige dorp Gosau. \n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze enorm grote appartement van maar liefst 152 m2, bevindt zich op de 5e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het balkon, heeft naast een open keuken een gezellige eethoek. Maar liefst 6 hoogwaardig ingerichte slaapkamers staan tot uw beschikking, waarvan twee als familie slaapkamer met eigen badkamer en speciale kinderkamer voorzien van een stapelbed (indien gewenst ook geschikt voor volwassenen).\n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n\n",
+      "Meta": "Apartment huren voor 12 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "12",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 957,
+          "MaxPrice": 3027
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1879,
+          "MaxPrice": 6018
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2801,
+          "MaxPrice": 8252
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 694,
+          "MaxPrice": 1199
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 694,
+          "MaxPrice": 1199
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 694,
+          "MaxPrice": 1199
+        }
+      ],
+      "DimensionM2": 152,
+      "Bathrooms": 3,
+      "Bedrooms": 5,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-15",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018102362506948631.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018102362454167880.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018102362482524407.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018102362486186725.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018102362541691731.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018013064112409.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018013063436136.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018013063776026.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138728147896.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138728593478.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138733954768.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138734681852.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138726085214.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138727496229.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138740400508.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138740567074.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138739917570.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138741570608.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138727082216.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138728064653.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138734108270.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138734543474.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138735273055.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018062138735541603.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2017072552855979253.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20180109636691962.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20180109637569609.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20180109638866857.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20180109639297607.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20180621194069630.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20180621197219981.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20180621197943689.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018102362559344434.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_2018102362570673634.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20170707546068575.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20170707545653259.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20170707547125338.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20170707548906132.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20170707547804862.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282583_lsr_20170707549559722.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 160",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 128/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 5e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "stapelbed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine"
+      ]
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 14 personen",
+      "Description": "Tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden, ligt centraal gelegen in de Salzkammergut, het gezellige dorp Gosau.\n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze appartement bevindt zich op de 5e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail, ingericht. De woonkamer heeft een luxueuze open keuken en een gezellige eethoek. Naast 4 royale slaapkamers is er tevens een familie slaapkamer met speciale kinderkamer voorzien van een stapelbed (indien gewenst ook geschikt voor volwassenen). Elke slaapkamer is voorzien van kwalitatief zeer goede bedden. \n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n",
+      "Meta": "Apartment huren voor 14 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "14",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 762,
+          "MaxPrice": 2822
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1490,
+          "MaxPrice": 5608
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2217,
+          "MaxPrice": 7647
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 555,
+          "MaxPrice": 1059
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 555,
+          "MaxPrice": 1059
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 555,
+          "MaxPrice": 1059
+        }
+      ],
+      "DimensionM2": 135,
+      "Bathrooms": 2,
+      "Bedrooms": 5,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-16",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018102362684848041.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018102362681236608.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018102362694431514.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018102362717881026.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018102362788151643.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180130101501983.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180130101172068.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180130100844714.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139056612147.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139052771073.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139055836478.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139055469190.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139051696526.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139055235251.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139045608929.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139061599572.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139061722113.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139062494029.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139065634617.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139060378561.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139064763280.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018062139058275339.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2017072552889575925.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180109648604214.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180109648116350.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180109649371588.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180109649811061.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180109650234056.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180109652357765.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180621198676441.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180621200552175.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20180621202502512.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018102362799177729.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_2018102362804387692.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20170707559299638.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20170707560635650.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20170707561558256.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20170707562579255.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20170707562169655.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282584_lsr_20170707563921894.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 160",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 128/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 5e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "stapelbed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine"
+      ]
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 12 personen",
+      "Description": "Centraal gelegen in de Salzkammergut, tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden ligt het gezellige dorp Gosau. \n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze enorm grote appartement, bevindt zich op de 5e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het terras, heeft naast een open keuken een gezellige eethoek. Maar liefst 5 hoogwaardig ingerichte slaapkamers staan tot uw beschikking, waarvan twee als familie slaapkamer met eigen badkamer en speciale kinderkamer voorzien van een stapelbed (indien gewenst ook geschikt voor volwassenen).\n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n\n",
+      "Meta": "Apartment huren voor 12 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "12",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 916,
+          "MaxPrice": 2822
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1797,
+          "MaxPrice": 5608
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2678,
+          "MaxPrice": 7729
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 664,
+          "MaxPrice": 1103
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 664,
+          "MaxPrice": 1103
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 664,
+          "MaxPrice": 1103
+        }
+      ],
+      "DimensionM2": 121,
+      "Bathrooms": 2,
+      "Bedrooms": 5,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-17",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018102363197562426.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018102363133472457.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018102363134080472.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018102363142338806.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018102363153153314.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018013074188297.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018013073527992.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018013073852751.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139683953064.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139684687521.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139684391885.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139684035160.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139678539825.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139678062455.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139688653946.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139691675780.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139693838344.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139678752962.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139690487437.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139689238208.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018062139688267089.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2017072552928055894.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180109659944092.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180109660287092.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180109660639962.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180109660986661.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180109661659893.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180109663342625.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180621203260951.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180621206396710.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20180621207156100.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018102363213772883.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_2018102363221348352.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20170707573435848.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20170707571697604.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20170707572531720.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20170707574470621.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20170707573989765.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20170707575064096.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282585_lsr_20170707578027847.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 160",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 128/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Op de 5e etage"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "stapelbed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine"
+      ]
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 6 personen",
+      "Description": "Centraal gelegen in de Salzkammergut, tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden ligt het gezellige dorp Gosau. \n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze appartement is eenvoudig met de lift te bereiken. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het terras of balkon, heeft naast een open keuken een gezellige eethoek. Naast 2 gewone slaapkamers en een algemene badkamer is er tevens een familie slaapkamer met eigen badkamer. Elke slaapkamer is voorzien van kwalitatief zeer goede bedden. \n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\n\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n\n",
+      "Meta": "Apartment huren voor 6 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "6",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 660,
+          "MaxPrice": 1328
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1287,
+          "MaxPrice": 2623
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 1914,
+          "MaxPrice": 3918
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 480,
+          "MaxPrice": 651
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 480,
+          "MaxPrice": 651
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 480,
+          "MaxPrice": 651
+        }
+      ],
+      "DimensionM2": 95,
+      "Bathrooms": 2,
+      "Bedrooms": 3,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-18",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018102363339425252.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018102363348204857.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018102363353959326.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018102363356481676.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018102363383381230.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313511517017.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313510661702.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313511091164.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018062117625399.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018062148429521.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621135522065.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621144260660.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018062118143397.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018062148928875.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621145289881.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621145735071.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018062147322734.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621128795108.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621136345688.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018062119075080.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018062117080196.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621129275893.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018062118621183.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621146159523.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313506738725.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313508036193.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313508886369.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313510180827.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313509736207.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621208037352.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621210996520.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180621211389680.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018102363397618401.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_2018102363399285287.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313494858223.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313495362979.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313495840740.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313496312135.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313497191320.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/290625_lsr_20180313496750491.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 50 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 120",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 120/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "4 kookplaten"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "lift"
+        }
+      ],
+      "Amenities": [
+        "Niet roken",
+        "oven",
+        "afwasmachine"
+      ]
+    },
+    {
+      "Title": "Apartment huren in Obertraun, max 4 personen",
+      "Description": "In Obertraun aan de voet van het imposante Dachsteingebergte en aan de oever van de schilderachtige Hallst\u00e4ttersee bij het bekende Hallstatt staat dit luxe chalet in een uniek vakantiedorp. Obertraun ligt ten zuidoosten van Salzburg in het omvangrijke merengebied Salzkammergut. 's Zomers een zeer populair vakantiegebied en 's winters een veel bezocht skigebied. Het gebied is zo uniek, dat het in 1997 als Werelderfgoed is toegevoegd aan de lijst van UNESCO. \n\nHet luxe twee-onder-een-kap chalet is vier sterren waardig. Alle slaapkamers beschikken onder andere over een eigen badkamer en flatscreen TV. Het chalet is erg sfeervol en compleet ingericht en heeft een eigen parkeerplaats. Door de open landschappelijke structuur van het resort, vormt het park \u00e9\u00e9n geheel met de omgeving en bevindt u zich direct midden in de overweldigende natuur.\n\nIn het vakantiedorp bevindt zich een centraal gebouw met vele mogelijkheden zoals een restaurant, binnenzwembad, zonneterras, wellness, minimarkt, kinderanimatie en een fitness studio (tegen betaling). Op loopafstand bevindt zich het openbare strand van het meer. In de winter stopt de skibus voor de deur en ook kunt u ter plekke de skihuur regelen. De regio heeft zowel in de zomer als in de winter een groot aanbod aan activiteiten en uitstapjes. In elk jaargetijde dus de ideale vakantiebestemming!",
+      "Meta": "Apartment huren voor 4 personen in Obertraun, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "4",
+      "SkiArea": "KRIPP",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 658,
+          "MaxPrice": 1486
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1341,
+          "MaxPrice": 2940
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2120,
+          "MaxPrice": 4394
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 313,
+          "MaxPrice": 804
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 250,
+          "MaxPrice": 804
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 250,
+          "MaxPrice": 418
+        }
+      ],
+      "DimensionM2": 85,
+      "Bathrooms": 2,
+      "Bedrooms": 2,
+      "Location": {
+        "Address": {
+          "PostalCode": "4831",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Obertraun",
+          "Subcity": ""
+        },
+        "Latitude": 13.680098,
+        "Longitude": 47.558764
+      },
+      "PropertyId": "AT-4831-02",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018102354705159554.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018102354701864885.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018102354992685607.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2014022685952685321.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_201402261040992895851.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_201402261044496448694.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104049267608.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072318923520.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104057591471.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352720653174.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352729345219.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352736797041.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352739570759.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352743752742.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352743722860.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352743083595.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352745116643.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352679705113.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352683246414.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352685008212.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352686332078.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352692178653.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352695950270.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352702219806.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352710571382.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352713681884.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352713736013.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352698251224.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352701548311.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018072352716635328.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018102354698136323.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018102354705552535.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_2018102354698324616.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104099406848.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104141978926.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104064042831.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104070523355.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104078023038.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104084237779.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/92921_lsr_20140710104091356475.jpg"
+      ],
+      "CostsOnSite": [
+        "Eindschoonmaak \u20ac 150",
+        "Huisdieren Max. 1; \u20ac 35/verblijf",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Hout \u20ac 7,50/pakket",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Lunch mogelijk; Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel \u20ac 21,50/verblijf",
+        "Linnengoed Extra bedlinnen wissel \u20ac 13 p.p."
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "Op de 1e etage"
+        },
+        {
+          "Item": "hal"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "op hetzelfde terrein"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "open haard"
+        },
+        {
+          "Item": "stereo-installatie"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "keramisch"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "magnetron"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koelkast"
+        },
+        {
+          "Item": "wasdroger",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "tuindeuren"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "verwarming",
+          "Details": [
+            "CV"
+          ]
+        },
+        {
+          "Item": "terras"
+        },
+        {
+          "Item": "tuin"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "zwembad",
+          "Details": [
+            "gedeeld met andere gasten",
+            "overdekt"
+          ]
+        },
+        {
+          "Item": "speeltoestellen"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "open haard",
+        "oven",
+        "magnetron",
+        "afwasmachine",
+        "wasmachine",
+        "tuin",
+        "zwembad"
+      ]
+    },
+    {
+      "Title": "Chalet huren in Obertraun, max 6 personen",
+      "Description": "In Obertraun staat dit luxe chalet in een uniek vakantiedorp aan de voet van het imposante Dachsteingebergte en aan de oever van de schilderachtige Hallst\u00e4ttersee bij het bekende Hallstatt. Het luxe, vrijstaande chalet is vier sterren waardig. Totaal beschikt u over drie slaapkamers en drie badkamers en alle slaapkamers beschikken over een flatscreen-TV. Het chalet is erg sfeervol en compleet ingericht en heeft een eigen parkeerplaats.\n\nDoor de open landschappelijke structuur van het resort vormt het park \u00e9\u00e9n geheel met de omgeving en bevindt u zich direct midden in de overweldigende natuur. In het vakantiedorp bevindt zich een centraal gebouw met vele mogelijkheden zoals een restaurant, binnenzwembad, zonneterras, wellness, minimarkt, kinderanimatie en een fitness-studio(tegen betaling).\n\nObertraun ligt ten zuidoosten van Salzburg in het omvangrijke merengebied Salzkammergut. 's Zomers is dit een zeer populair vakantiegebied en 's winters een veel bezocht skigebied. Het gebied is zo uniek, dat het in 1997 als Werelderfgoed is toegevoegd aan de lijst van UNESCO. Op loopafstand bevindt zich het openbare strand van het meer. In de winter stopt de skibus voor de deur en ook kunt u ter plekke de skihuur regelen. De regio heeft zowel in de zomer als in de winter een groot aanbod aan activiteiten en uitstapjes. In elk jaargetijde dus de ideale vakantiebestemming!",
+      "Meta": "Chalet huren voor 6 personen in Obertraun, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Chalet",
+      "MaxPersons": "6",
+      "SkiArea": "KRIPP",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 747,
+          "MaxPrice": 1694
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1528,
+          "MaxPrice": 3355
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2462,
+          "MaxPrice": 5017
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 353,
+          "MaxPrice": 903
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 290,
+          "MaxPrice": 903
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 290,
+          "MaxPrice": 468
+        }
+      ],
+      "DimensionM2": 130,
+      "Bathrooms": 3,
+      "Bedrooms": 3,
+      "Location": {
+        "Address": {
+          "PostalCode": "4831",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Obertraun",
+          "Subcity": ""
+        },
+        "Latitude": 13.680098,
+        "Longitude": 47.558764
+      },
+      "PropertyId": "AT-4831-03",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018102356069114027.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018102356078509863.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018102356179259062.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_201402261042145112107.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_201402261060022785925.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_201402261042146193870.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_201402261042147196506.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072319705736.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354085307404.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354086597752.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354089212569.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354090358458.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354090198442.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354080288687.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354081202569.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354080898707.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354066557917.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354068631894.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354070154477.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354070714405.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354070737149.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354071552547.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354080174277.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354077710838.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354076994450.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018072354090954625.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018102356075954054.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_2018102356072121027.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109955671822.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109939749707.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109932490746.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109925801485.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109947806166.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109917957692.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109910972836.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109905605872.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109898422454.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109886933543.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93036_lsr_20140710109879459424.jpg"
+      ],
+      "CostsOnSite": [
+        "Eindschoonmaak \u20ac 205",
+        "Huisdieren Max. 1; \u20ac 35/verblijf",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Hout \u20ac 7,50/pakket",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Lunch mogelijk; Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel \u20ac 21,50/verblijf",
+        "Linnengoed Extra bedlinnen wissel \u20ac 13 p.p."
+      ],
+      "PropertiesV1": [
+        "Chalet",
+        "Vrijstaand",
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "Op de 1e etage"
+        },
+        {
+          "Item": "hal"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "op hetzelfde terrein"
+          ]
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "kachel",
+          "Details": [
+            "hout"
+          ]
+        },
+        {
+          "Item": "stereo-installatie"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "keramisch"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "magnetron"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koelkast"
+        },
+        {
+          "Item": "wasdroger",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "ligbad"
+        },
+        {
+          "Item": "bad met douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "verwarming",
+          "Details": [
+            "CV"
+          ]
+        },
+        {
+          "Item": "terras"
+        },
+        {
+          "Item": "tuin"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "zwembad",
+          "Details": [
+            "gedeeld met andere gasten",
+            "overdekt"
+          ]
+        },
+        {
+          "Item": "speeltoestellen"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "oven",
+        "magnetron",
+        "afwasmachine",
+        "wasmachine",
+        "tuin",
+        "zwembad"
+      ]
+    },
+    {
+      "Title": "Apartment huren in Obertraun, max 6 personen",
+      "Description": "In Obertraun aan de voet van het imposante Dachsteingebergte en aan de oever van de schilderachtige Hallst\u00e4ttersee bij het bekende Hallstatt staat dit luxe chalet in een uniek vakantiedorp. Obertraun ligt ten zuidoosten van Salzburg in het omvangrijke merengebied Salzkammergut. 's Zomers een zeer populair vakantiegebied en 's winters een veel bezocht skigebied. Het gebied is zo uniek, dat het in 1997 als Werelderfgoed is toegevoegd aan de lijst van UNESCO. Het luxe 2/1 kap chalet is vijf sterren waardig. Totaal zijn er 3 slaapkamers, 2 badkamers en een eigen sauna! Alle slaapkamers beschikken over een flatscreen TV. Het chalet is erg sfeervol en compleet ingericht en heeft een eigen parkeerplaats. Door de open landschappelijke structuur van het resort, vormt het park \u00e9\u00e9n geheel met de omgeving en bevindt u zich direct midden in de overweldigende natuur. In het vakantiedorp bevindt zich een centraal gebouw met vele mogelijkheden zoals een restaurant, binnenzwembad, zonneterras, wellness, minimarkt, kinderanimatie en een fitness studio. Op loopafstand bevindt zich het openbare strand van het meer. In de winter stopt de skibus voor de deur en ook kunt u ter plekke de skihuur regelen. De regio heeft zowel in de zomer als in de winter een groot aanbod aan activiteiten en uitstapjes. In elk jaargetijde dus de ideale vakantiebestemming!",
+      "Meta": "Apartment huren voor 6 personen in Obertraun, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "6",
+      "SkiArea": "KRIPP",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 836,
+          "MaxPrice": 1832
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1715,
+          "MaxPrice": 3632
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2774,
+          "MaxPrice": 5432
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 393,
+          "MaxPrice": 1002
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 309,
+          "MaxPrice": 1002
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 309,
+          "MaxPrice": 517
+        }
+      ],
+      "DimensionM2": 150,
+      "Bathrooms": 2,
+      "Bedrooms": 3,
+      "Location": {
+        "Address": {
+          "PostalCode": "4831",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Obertraun",
+          "Subcity": ""
+        },
+        "Latitude": 13.680098,
+        "Longitude": 47.558764
+      },
+      "PropertyId": "AT-4831-04",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018102356491493557.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018102356492526659.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018102356447055382.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_201402261059918299934.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_201402261042148201418.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_201402261042149187372.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_201402261042150183853.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_20140710104026765454.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354766091605.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354776219383.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354764538749.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354764543348.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354765725665.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354771546898.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354773851975.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354739257326.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354742380499.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354742370223.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354743355521.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354753241117.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354753249025.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354753823707.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354754020027.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354746516285.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354751661611.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354755707924.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354764735195.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354776181228.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018102356501936853.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018102356503870038.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_2018072354775550375.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_20140710104242004301.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_20140710104008969252.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_20140710105784039272.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_20140710105777147168.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_20140710105754382758.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_20140710105768587205.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93032_lsr_20140710105761350799.jpg"
+      ],
+      "CostsOnSite": [
+        "Eindschoonmaak \u20ac 215",
+        "Huisdieren Max. 1; \u20ac 35/verblijf",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Hout \u20ac 7,50/pakket",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Lunch mogelijk; Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel \u20ac 21,75/verblijf",
+        "Linnengoed Extra bedlinnen wissel \u20ac 13 p.p."
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "Op de 1e etage"
+        },
+        {
+          "Item": "hal"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "kachel",
+          "Details": [
+            "hout"
+          ]
+        },
+        {
+          "Item": "stereo-installatie"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "keramisch"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "magnetron"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koelkast"
+        },
+        {
+          "Item": "wasdroger",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "ligbad"
+        },
+        {
+          "Item": "ligbad"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "tuindeuren"
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "verwarming",
+          "Details": [
+            "CV"
+          ]
+        },
+        {
+          "Item": "terras"
+        },
+        {
+          "Item": "tuin"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "zwembad",
+          "Details": [
+            "gedeeld met andere gasten",
+            "overdekt"
+          ]
+        },
+        {
+          "Item": "speeltoestellen"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "oven",
+        "magnetron",
+        "afwasmachine",
+        "wasmachine",
+        "tuin",
+        "zwembad"
+      ]
+    },
+    {
+      "Title": "Chalet huren in Obertraun, max 8 personen",
+      "Description": "In Obertraun staat dit luxe chalet in een uniek vakantiedorp aan de voet van het imposante Dachsteingebergte en aan de oever van de schilderachtige Hallst\u00e4ttersee bij het bekende Hallstatt. Het luxe vrijstaande chalet is vijf sterren waardig. Totaal zijn er vier slaapkamers, vier badkamers en een eigen sauna! Alle slaapkamers beschikken dus over een eigen badkamer en hebben tevens een flatscreen-TV. Het chalet is erg sfeervol en compleet ingericht en heeft  een eigen parkeerplaats. \n\nDoor de open landschappelijke structuur van het resort vormt het park \u00e9\u00e9n geheel met de omgeving en bevindt u zich direct midden in de overweldigende natuur. In het vakantiedorp bevindt zich een centraal gebouw met vele mogelijkheden zoals een restaurant, binnenzwembad, zonneterras, wellness, minimarkt, kinderanimatie en een fitness-studio. Op loopafstand bevindt zich het openbare strand van het meer. In de winter stopt de skibus voor de deur en ook kunt u ter plekke de skihuur regelen.\n\nObertraun ligt ten zuidoosten van Salzburg in het omvangrijke merengebied Salzkammergut. 's Zomers is dit een zeer populair vakantiegebied en 's winters een veel bezocht skigebied. Het gebied is zo uniek, dat het in 1997 als Werelderfgoed is toegevoegd aan de lijst van UNESCO. De regio heeft zowel in de zomer als in de winter een groot aanbod aan activiteiten en uitstapjes. In elk jaargetijde dus de ideale vakantiebestemming!",
+      "Meta": "Chalet huren voor 8 personen in Obertraun, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Chalet",
+      "MaxPersons": "8",
+      "SkiArea": "KRIPP",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 1045,
+          "MaxPrice": 2109
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 2151,
+          "MaxPrice": 4186
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 3490,
+          "MaxPrice": 6263
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 486,
+          "MaxPrice": 994
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 408,
+          "MaxPrice": 994
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 408,
+          "MaxPrice": 458
+        }
+      ],
+      "DimensionM2": 200,
+      "Bathrooms": 4,
+      "Bedrooms": 4,
+      "Location": {
+        "Address": {
+          "PostalCode": "4831",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Obertraun",
+          "Subcity": ""
+        },
+        "Latitude": 13.680098,
+        "Longitude": 47.558764
+      },
+      "PropertyId": "AT-4831-05",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018102356871022264.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018102356871421622.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018102356793372076.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_201402261059919053694.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_201402261042151189363.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_201402261042152155317.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_201402261042153133794.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072320131871.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444064694526.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444066354997.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444066948361.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444066853514.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444077819018.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444078787708.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444078987246.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444065182471.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444064220003.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444075346831.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444078248935.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444079289554.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444088586926.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444087273382.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444092552764.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444097444813.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444101394793.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444102410205.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444102578522.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444082803547.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444088424121.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444091473381.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444091536689.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444102652274.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018072444103291705.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018102356881737781.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_2018102356867940375.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_20111205456969582609.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93034_lsr_20111205456956153368.jpg"
+      ],
+      "CostsOnSite": [
+        "Eindschoonmaak \u20ac 265",
+        "Huisdieren Max. 1; \u20ac 35/verblijf",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Hout \u20ac 7,50/pakket",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Lunch mogelijk; Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel \u20ac 21,75/verblijf",
+        "Linnengoed Extra bedlinnen wissel \u20ac 13 p.p."
+      ],
+      "PropertiesV1": [
+        "Chalet",
+        "Vrijstaand",
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "Op de 1e etage"
+        },
+        {
+          "Item": "hal"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "kachel",
+          "Details": [
+            "hout"
+          ]
+        },
+        {
+          "Item": "stereo-installatie"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "keramisch"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "magnetron"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koelkast"
+        },
+        {
+          "Item": "wasdroger",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "ligbad"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "verwarming",
+          "Details": [
+            "CV"
+          ]
+        },
+        {
+          "Item": "terras"
+        },
+        {
+          "Item": "tuin"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "zwembad",
+          "Details": [
+            "gedeeld met andere gasten",
+            "overdekt"
+          ]
+        },
+        {
+          "Item": "speeltoestellen"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "oven",
+        "magnetron",
+        "afwasmachine",
+        "wasmachine",
+        "tuin",
+        "zwembad"
+      ]
+    },
+    {
+      "Title": "Chalet huren in Obertraun, max 10 personen",
+      "Description": "In Obertraun aan de voet van het imposante Dachsteingebergte en aan de oever van de schilderachtige Hallst\u00e4ttersee bij het bekende Hallstatt staat dit luxe chalet in een uniek vakantiedorp. Obertraun ligt ten zuidoosten van Salzburg in het omvangrijke merengebied Salzkammergut. 's Zomers een zeer populair vakantiegebied en 's winters een veel bezocht skigebied. Het gebied is zo uniek, dat het in 1997 als Werelderfgoed is toegevoegd aan de lijst van UNESCO. Het luxe vrijstaande chalet is vijf sterren waardig. Totaal zijn er 5 slaapkamers, 4 badkamers en een eigen sauna! Alle slaapkamers beschikken over een flatscreen TV. Het chalet is erg sfeervol en compleet ingericht en heeft  een eigen parkeerplaats. Door de open landschappelijke structuur van het resort, vormt het park \u00e9\u00e9n geheel met de omgeving en bevindt u zich direct midden in de overweldigende natuur. In het vakantiedorp bevindt zich een centraal gebouw met vele mogelijkheden zoals een restaurant, binnenzwembad, zonneterras, wellness, minimarkt, kinderanimatie en een fitness studio. Op loopafstand bevindt zich het openbare strand van het meer. In de winter stopt de skibus voor de deur en ook kunt u ter plekke de skihuur regelen. De regio heeft zowel in de zomer als in de winter een groot aanbod aan activiteiten en uitstapjes. In elk jaargetijde dus de ideale vakantiebestemming!",
+      "Meta": "Chalet huren voor 10 personen in Obertraun, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Chalet",
+      "MaxPersons": "10",
+      "SkiArea": "KRIPP",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 1166,
+          "MaxPrice": 2285
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 2402,
+          "MaxPrice": 4327
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 3898,
+          "MaxPrice": 5988
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 542,
+          "MaxPrice": 1085
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 480,
+          "MaxPrice": 1103
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 480,
+          "MaxPrice": 510
+        }
+      ],
+      "DimensionM2": 200,
+      "Bathrooms": 4,
+      "Bedrooms": 5,
+      "Location": {
+        "Address": {
+          "PostalCode": "4831",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Obertraun",
+          "Subcity": ""
+        },
+        "Latitude": 13.680098,
+        "Longitude": 47.558764
+      },
+      "PropertyId": "AT-4831-06",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_2018102357321288556.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_2018102357303004754.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_2018102357320421698.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_2018102357212390630.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_201402261042154115878.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_201402261042155089737.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_201402261042156091239.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_2018072320550594.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119425316653.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119250900969.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119203563843.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119210478099.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119240481502.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119269856562.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119232935771.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119260023347.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_2018102357300840128.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20111205457032577947.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20111205457020731690.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119408640151.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119672827185.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710120443461785.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710120436217146.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710120449821785.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710120484358805.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/93038_lsr_20140710119416508045.jpg"
+      ],
+      "CostsOnSite": [
+        "Eindschoonmaak \u20ac 310",
+        "Huisdieren Max. 1; \u20ac 35/verblijf",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Hout \u20ac 7,50/pakket",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Lunch mogelijk; Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel \u20ac 21,75/verblijf",
+        "Linnengoed Extra bedlinnen wissel \u20ac 13 p.p."
+      ],
+      "PropertiesV1": [
+        "Chalet",
+        "Vrijstaand",
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "Op de 1e etage"
+        },
+        {
+          "Item": "hal"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "slaapkamer met badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "2-pers. bed"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "TV"
+        },
+        {
+          "Item": "kachel",
+          "Details": [
+            "hout"
+          ]
+        },
+        {
+          "Item": "stereo-installatie"
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "keramisch"
+          ]
+        },
+        {
+          "Item": "oven"
+        },
+        {
+          "Item": "magnetron"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koel-/vriescombinatie"
+        },
+        {
+          "Item": "wasdroger",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "ligbad"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "balkon"
+        },
+        {
+          "Item": "verwarming",
+          "Details": [
+            "CV"
+          ]
+        },
+        {
+          "Item": "terras"
+        },
+        {
+          "Item": "tuin"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "zwembad",
+          "Details": [
+            "gedeeld met andere gasten",
+            "overdekt"
+          ]
+        },
+        {
+          "Item": "speeltoestellen"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "oven",
+        "magnetron",
+        "afwasmachine",
+        "wasmachine",
+        "tuin",
+        "zwembad"
+      ]
+    },
+    {
+      "Title": "Chalet huren in Obertraun, max 4 personen",
+      "Description": "In Obertraun aan de voet van het imposante Dachsteingebergte en aan de oever van de schilderachtige Hallst\u00e4ttersee bij het bekende Hallstatt staat dit luxe 4 onder 1 kap huis in een uniek vakantiedorp. Obertraun ligt ten zuidoosten van Salzburg in het omvangrijke merengebied Salzkammergut. 's Zomers een zeer populair vakantiegebied en 's winters een veel bezocht skigebied. Het gebied is zo uniek, dat het in 1997 als Werelderfgoed is toegevoegd aan de lijst van UNESCO. \n\nHet luxe vier-onder-een-kap chalet is zeker vier sterren waardig. Naast de sfeervolle woonkamer met moderne open keuken beschikt u over 2 badkamers, een royaal terras en een aparte slaapkamer op de 1e etage. Het chalet heeft een eigen parkeerplaats. Door de open landschappelijke structuur van het resort, vormt het park \u00e9\u00e9n geheel met de omgeving en bevindt u zich direct midden in de overweldigende natuur.\n\nIn het vakantiedorp bevindt zich een centraal gebouw met vele mogelijkheden zoals een restaurant, binnenzwembad, zonneterras, wellness, minimarkt, kinderanimatie en een fitness studio (tegen betaling). Op loopafstand bevindt zich het openbare strand van het meer. In de winter stopt de skibus voor de deur en ook kunt u ter plekke de skihuur regelen. De regio heeft zowel in de zomer als in de winter een groot aanbod aan activiteiten en uitstapjes. In elk jaargetijde dus de ideale vakantiebestemming!",
+      "Meta": "Chalet huren voor 4 personen in Obertraun, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Chalet",
+      "MaxPersons": "4",
+      "SkiArea": "KRIPP",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 539,
+          "MaxPrice": 1348
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1092,
+          "MaxPrice": 2663
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 1746,
+          "MaxPrice": 3978
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 259,
+          "MaxPrice": 685
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 211,
+          "MaxPrice": 685
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 211,
+          "MaxPrice": 359
+        }
+      ],
+      "DimensionM2": 65,
+      "Bathrooms": 2,
+      "Bedrooms": 1,
+      "Location": {
+        "Address": {
+          "PostalCode": "4831",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Obertraun",
+          "Subcity": ""
+        },
+        "Latitude": 13.680098,
+        "Longitude": 47.558764
+      },
+      "PropertyId": "AT-4831-09",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018070242534987097.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018072321074941.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018070242531535751.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018070242529707555.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018070242529325668.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018070242530713158.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018073056415487130.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018073056417938907.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018073056425787778.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018073056418568357.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018073056419624273.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018073056410381756.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018073056417020434.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/294578_lsr_2018073056423103922.jpg"
+      ],
+      "CostsOnSite": [
+        "Eindschoonmaak \u20ac 130",
+        "Huisdieren Max. 1; \u20ac 35/verblijf",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Lunch mogelijk; Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel \u20ac 21,50/verblijf"
+      ],
+      "PropertiesV1": [
+        "Chalet",
+        "Appartement",
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": [
+        {
+          "Item": "Parterre"
+        },
+        {
+          "Item": "Op de 1e etage"
+        },
+        {
+          "Item": "hal"
+        },
+        {
+          "Item": "woonkamer"
+        },
+        {
+          "Item": "open keuken"
+        },
+        {
+          "Item": "slaapkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "badkamer"
+        },
+        {
+          "Item": "fitnessruimte",
+          "Details": [
+            "gedeeld met andere gasten"
+          ]
+        },
+        {
+          "Item": "relaxruimte",
+          "Details": [
+            "op hetzelfde terrein"
+          ]
+        },
+        {
+          "Item": "1-pers. bed"
+        },
+        {
+          "Item": "2-pers. slaapbank"
+        },
+        {
+          "Item": "TV",
+          "Details": [
+            "flatscreen"
+          ]
+        },
+        {
+          "Item": "TV",
+          "Details": [
+            "flatscreen"
+          ]
+        },
+        {
+          "Item": "fornuis",
+          "Details": [
+            "inductie"
+          ]
+        },
+        {
+          "Item": "combimagnetron"
+        },
+        {
+          "Item": "afwasmachine"
+        },
+        {
+          "Item": "koelkast"
+        },
+        {
+          "Item": "wasdroger",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "ligbad"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "douche"
+        },
+        {
+          "Item": "sauna",
+          "Details": [
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "wastafel"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "toilet"
+        },
+        {
+          "Item": "wasmachine",
+          "Details": [
+            "gedeeld met andere gasten",
+            "tegen betaling"
+          ]
+        },
+        {
+          "Item": "verwarming",
+          "Details": [
+            "CV"
+          ]
+        },
+        {
+          "Item": "terras"
+        },
+        {
+          "Item": "tuinmeubilair"
+        },
+        {
+          "Item": "parking"
+        },
+        {
+          "Item": "zwembad",
+          "Details": [
+            "gedeeld met andere gasten",
+            "overdekt"
+          ]
+        },
+        {
+          "Item": "speeltoestellen"
+        }
+      ],
+      "Amenities": [
+        "Landelijk",
+        "Op vakantiepark",
+        "Niet roken",
+        "afwasmachine",
+        "wasmachine",
+        "zwembad"
+      ]
     }
   ]
 }
