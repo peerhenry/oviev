@@ -2,7 +2,7 @@ def compile(refDetailsList):
   dic = dict()
   for el in refDetailsList:
     number = el['Number']
-    dic[number] = extractDutchName(el)
+    dic[str(number)] = extractDutchName(el)
   return dic
 
 def extractDutchName(element):

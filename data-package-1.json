@@ -86,10 +86,1021 @@
         "Toeristenbelasting \u20ac 1,10/persoon/nacht (Indicatie)"
       ],
       "PropertiesV1": [
-        {},
-        {},
-        {},
-        {}
+        "Chalet",
+        "Vrijstaand",
+        "Landelijk",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Holiday home huren in Litschau, max 6 personen",
+      "Description": "Midden in de heerlijke natuur en het idyllische heuvellandschap van het mooie \u201cWaldviertel\u201d is het park K\u00f6nigsleitn gelegen. Dit park bestaat uit 15 geheel in stijl gebouwde woningen waarin meerdere appartementen zijn ondergebracht. Uw ruime appartement is verdeeld over 2 verdiepingen waarbij u op de begaande grond de beschikking heeft over een ruime woonkamer met terras of balkon een open keuken en toilet en waar u via de open trap op de 1e etage beschikt over 2 ruime slaapkamers en badkamer. In het restaurant van het park kunt u tegen meerprijs gebruik maken van een heerlijk ontbijt, lunch of diner. Op het park komt u o.a. speeltuinen, beachvolleybal, tennisbanen, squash, tafeltennis en sauna tegen (deels tegen betaling) De golf liefhebbers kunnen gelijk bij het park de eerste golfballen slaan. De naastgelegen \u201cHerrensee\u201d biedt voor de zwemmers, wandelaars en zonaanbidders volop mogelijkheden. Kortom een unieke bestemming om te genieten van uw welverdiende vakantie.\n\nBijzonderheden:\nIn het laagseizoen en in de wintermaanden is het mogelijk dat diverse faciliteiten en het restaurant gesloten zijn. In het dorp Litschau zijn echter voldoende alternatieven.\n",
+      "Meta": "Holiday home huren voor 6 personen in Litschau, Nieder\u00f6sterreich / Wenen, Oostenrijk",
+      "HouseType": "Holiday home",
+      "MaxPersons": "6",
+      "SkiArea": "",
+      "HolidayPark": "at-3874-001",
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 883,
+          "MaxPrice": 1165
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1733,
+          "MaxPrice": 2335
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2583,
+          "MaxPrice": 3504
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 424,
+          "MaxPrice": 664
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 424,
+          "MaxPrice": 661
+        }
+      ],
+      "DimensionM2": 66,
+      "Bathrooms": 1,
+      "Bedrooms": 2,
+      "Location": {
+        "Address": {
+          "PostalCode": "3874",
+          "Country": "Oostenrijk",
+          "Region": "Nieder\u00f6sterreich / Wenen",
+          "City": "Litschau",
+          "Subcity": ""
+        },
+        "Latitude": 15.04879,
+        "Longitude": 48.95052
+      },
+      "PropertyId": "AT-3874-02",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_2014040134170289115.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_20131227192309564838.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_20131227192310048911.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_20131227192304774151.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_20131227192308618822.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112167776609006.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112167778319611.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112169107683057.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112169102156411.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112167771405485.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112169105299615.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112169108472349.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_2014040134751605741.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112169106107155.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_2014040134708507188.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_20131227192305559399.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112167768738877.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_20131227192304187692.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_201403112167767676816.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_2014040134126877367.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_2014040134142904182.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_2014040134065428348.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_2014040134230828914.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/85483_lsr_20131227192432110290.jpg"
+      ],
+      "CostsOnSite": [
+        "Eindschoonmaak Inclusief",
+        "Huisdieren Max. 2; \u20ac 6/dier/nacht (Huisdieren alleen geaccepteerd indien voor aankomst opgegeven)",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis (In de buurt van de accommodatie)",
+        "Toeristenbelasting \u20ac 2,40/persoon/nacht (Indicatie)",
+        "Catering Lunch mogelijk (ter plaatse te regelen); Diner mogelijk (ter plaatse te regelen)",
+        "Ontbijt Mogelijk (ter plaatse te regelen)"
+      ],
+      "PropertiesV1": [
+        "Vakantiehuis",
+        "Niet vrijstaand",
+        "Op vakantiepark",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Chalet huren in Molln-Ramsau, max 4 personen",
+      "Description": "Het verlangen naar oorspronkelijkheid, \u00e9\u00e9nzijn met de natuur en een behaaglijk vakantieonderkomen met traditionele charme vindt u bij deze kleine Alpenresidentie aan de rand van het bos. \n\n... ver weg van het lawaai en de hectiek van de stad\n... in de directe omgeving van het skigebied Hinterstoder, de golfbaan en zwemmeertjes \n... en toch ver weg van toeristische routes\n... ideale uitvalsbasis voor wandelingen, wandeltochten, berg- en mountainbiketochten in de vakantieregio Pyhrn-Priel\n\nIngebed in naaldbomenbossen weerspiegelt zich de natuur en zorgt dankzij de met de hand gemaakte houten luiken, de houten zithoeken en parketvloeren, zowel buiten als binnen, voor een behaaglijke sfeer.\n\nHet terras aan de zonzijde met uitzicht op de fascinerende natuur is een bron van inspiratie en nodigt uit tot dagdromen.\n\nDe geur van het hout, de warmte van de tegelkachel en het knapperende haardvuur trekt door de ruimtes - puur welzijn, pure behaaglijkheid en een nostalgische landhuisidylle\n\nOp een woonoppervlak van ongeveer 60 m\u00b2 vindt u de perfecte balans tussen de uitstraling van een chalet, een rustieke ambiance, sfeervolle decoratie en modern comfort\nDe tegelkachel in traditioneel groen verspreidt, als het buiten kouder wordt, een natuurlijke warmte en maakt van de daarnaast geplaatste bank \u00e9\u00e9n van de meest favoriete plekjes in het huis.\nWoon- en eetkamer lopen vloeiend in elkaar over en zijn direct met de keuken verbonden.\nIn de badkamer heerst dankzij het bad een feelgoodsfeer\nIn de slaapkamer zorgt het hout voor weldadige rust en de warme blauwtinten staan voor ontspanning, harmonie en tevredenheid.\n",
+      "Meta": "Chalet huren voor 4 personen in Molln-Ramsau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Chalet",
+      "MaxPersons": "4",
+      "SkiArea": "KRIPP",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 581,
+          "MaxPrice": 1291
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1129,
+          "MaxPrice": 2540
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 1677,
+          "MaxPrice": 3733
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 267,
+          "MaxPrice": 418
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 267,
+          "MaxPrice": 418
+        }
+      ],
+      "DimensionM2": 60,
+      "Bathrooms": 1,
+      "Bedrooms": 1,
+      "Location": {
+        "Address": {
+          "PostalCode": "4564",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Molln-Ramsau",
+          "Subcity": ""
+        },
+        "Latitude": 14.20812,
+        "Longitude": 47.846772
+      },
+      "PropertyId": "AT-4553-01",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539852467168.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539804311771.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539931578721.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539890890072.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539930356498.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539931331253.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539879572229.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539832131067.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539839103260.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539907369446.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539895776695.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539880648913.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539787071541.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539819061052.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539863700968.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539816598689.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539854941586.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539815200762.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539816374041.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082528420606.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_20180825205086759.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_20180825356785064.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_20180825356138191.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539869346812.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539874844640.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/296351_lsr_2018082539920720213.jpg"
+      ],
+      "CostsOnSite": [
+        "Eindschoonmaak \u20ac 50",
+        "Huisdieren Niet toegestaan",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 1,50/persoon/nacht (Indicatie)"
+      ],
+      "PropertiesV1": [
+        "Chalet",
+        "Vrijstaand",
+        "Landelijk",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Apartment huren in Hinterstoder, max 4 personen",
+      "Description": "Prachtige huis met een gezellige inrichting en een unieke locatie op 650 meter hoogte op een berg in Hinterstoder. \u2018Haus Oetie\u2019 ligt aan het eind van een weg zonder doorgaand verkeer en heerlijk rustig aan de bosrand. \n\nHet appartement is comfortabel ingericht met onder andere drie slaapkamers, een mooie badkamer, een open keuken met Oostenrijkse zithoek en een woonkamer. Vanaf het terras en vanuit de tuin heeft u een spectaculair uitzicht op de toppen van het Totes gebergte. Tijdens het wintersportseizoen dient de kelder als een skiberging. De tuin is in de zomer een waar groen paradijs. Hier ligt een mooi zwembad, dat in de zomer geopend is, en er staan verschillende speeltoestellen voor de kinderen. \n\nHinterstoder ligt in het zuiden van Ober\u00f6sterreich; in het Stoderdal en in het Totes Gebergte. In de winter biedt Hinterstoder genoeg activiteiten in het Krippenstein skigebied. Hier kunt u langlaufen, sleetochten maken en rodelen. Door de zeer gunstige ligging is er sneeuw vanaf medio december tot medio april. In de zomer maken mooie meren, wandelroutes en de frisse berglucht het dorp Hinterstoder zeer aantrekkelijk. Tevens zijn er diverse sportieve mogelijkheden zoals raften, zwemmen, bergbeklimmen, deltavliegen en paardrijden.\n",
+      "Meta": "Apartment huren voor 4 personen in Hinterstoder, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "4",
+      "SkiArea": "KRIPP",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 560,
+          "MaxPrice": 1291
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1087,
+          "MaxPrice": 2457
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 1614,
+          "MaxPrice": 3488
+        }
+      ],
+      "DimensionM2": 90,
+      "Bathrooms": 1,
+      "Bedrooms": 3,
+      "Location": {
+        "Address": {
+          "PostalCode": "4573",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Hinterstoder",
+          "Subcity": ""
+        },
+        "Latitude": 14.143154,
+        "Longitude": 47.691057
+      },
+      "PropertyId": "AT-4573-02",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875606813241.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875568537158.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329187104053997.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2017110761728515709.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329187286719153.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875585582445.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329186793733368.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329186811965328.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329186888674827.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329186906428041.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329186924843329.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329186831962658.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_20140329186871344965.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2015062475672289279.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2017110761708006792.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875590815627.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2017110761723025480.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2017110761729287077.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2017110761728120510.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2015062475572763529.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875598560008.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2015062475701723365.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2015062475784680319.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875588872856.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875586830831.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2017110761719105093.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2015062475560571293.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2015062475663454829.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875609490903.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2015062475750681494.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/142767_lsr_2018121875462525483.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U dient de borg contant te betalen bij aankomst)",
+        "Eindschoonmaak \u20ac 60",
+        "Huisdieren Niet toegestaan",
+        "Bedlinnen Aanwezig",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 1,73/persoon/nacht (Indicatie)"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "Landelijk",
+        "In de bergen > 1000 m.",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 12 personen",
+      "Description": "Centraal gelegen in de Salzkammergut, tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden ligt het gezellige dorp Gosau. Midden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede hun hand hebben gehad in het ontwerp en de inrichting. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze appartement bevindt zich op de 4e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het balkon, heeft naast een open keuken een gezellige eethoek.Maar liefst 5 royale slaapkamers staan tot uw beschikking. Elke slaapkamer is voorzien van kwalitatief zeer goede bedden en u heeft voldoende kastruimte.\n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n",
+      "Meta": "Apartment huren voor 12 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "12",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 906,
+          "MaxPrice": 2919
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1777,
+          "MaxPrice": 5711
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2648,
+          "MaxPrice": 7811
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 657,
+          "MaxPrice": 1103
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 657,
+          "MaxPrice": 1103
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 657,
+          "MaxPrice": 1103
+        }
+      ],
+      "DimensionM2": 128,
+      "Bathrooms": 2,
+      "Bedrooms": 5,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-09",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018102357883662424.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018102357908020537.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018102357905204230.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018102357893213856.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018102357885445116.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018013041284529882.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018013041283524407.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018013041284554169.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949009531034.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949019109490.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949020008962.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949023632743.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949017476262.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949038285921.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949039972733.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949050810877.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949053883375.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010948981034863.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010948994606039.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949006090196.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949005682699.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010948980589601.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010948993656888.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2017072551679250265.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949055439469.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949074966072.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949078766216.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949085503095.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018010949095835107.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018062132388832792.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018062132399254732.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018062132399374711.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018102358152830016.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2018102358154376633.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2017063048077626749.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2017063048082657743.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2017063048085351012.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2017063048445048314.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2017063048445624671.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282144_lsr_2017063048445976293.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 160",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 128/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 14 personen",
+      "Description": "Tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden, ligt centraal gelegen in de Salzkammergut, het gezellige dorp Gosau.\n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze appartement bevindt zich op de 4e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het balkon, heeft naast een open keuken een gezellige eethoek met een uniek uitzicht. Maar liefst 6 royale slaapkamers staan tot uw beschikking. Elke slaapkamer is voorzien van kwalitatief zeer goede bedden. Daarnaast beschikt u over meerdere luxueuze badkamers en 2 aparte toiletten.\n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n\n",
+      "Meta": "Apartment huren voor 14 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "14",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 1019,
+          "MaxPrice": 3139
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 2002,
+          "MaxPrice": 6244
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2986,
+          "MaxPrice": 8569
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 738,
+          "MaxPrice": 1286
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 738,
+          "MaxPrice": 1286
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 738,
+          "MaxPrice": 1286
+        }
+      ],
+      "DimensionM2": 150,
+      "Bathrooms": 3,
+      "Bedrooms": 6,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-10",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018102360467640130.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018102360363503704.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018102360377655086.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018102360425926542.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018102360382877220.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018013098479348.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018013098106904.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018013097771683.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132903853817.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132909300224.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062133210457411.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132911802232.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132905457226.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132905751696.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132910766211.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132905500497.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132916883071.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132916355516.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132917307047.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132911945283.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132912898723.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132915375873.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132912096186.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018062132912620326.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2017072551954673122.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20180109578714785.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20180109579119227.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20180109580588852.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20180109582417441.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20180621171003299.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20180621172972263.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20180621174892331.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018102360482821964.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_2018102360498326204.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20170706257306558.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20170706257821592.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20170706260201537.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20170706261261269.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20170706263043173.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282502_lsr_20170706263927164.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 160",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 128/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 10 personen",
+      "Description": "Centraal gelegen in de Salzkammergut, tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden ligt het gezellige dorp Gosau. \n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze appartement bevindt zich op de 4e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het terras, heeft naast een open keuken een gezellige eethoek. Naast 2 gewone slaapkamers en een algemene badkamer is er tevens een familie slaapkamer met eigen badkamer en speciale kinderkamer voorzien van een stapelbed (indien gewenst ook geschikt voor volwassenen). Elke slaapkamer is voorzien van kwalitatief zeer goede bedden. \n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\n\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n\n",
+      "Meta": "Apartment huren voor 10 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "10",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 803,
+          "MaxPrice": 2586
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1572,
+          "MaxPrice": 5137
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2340,
+          "MaxPrice": 7053
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 584,
+          "MaxPrice": 1016
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 584,
+          "MaxPrice": 1016
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 584,
+          "MaxPrice": 1016
+        }
+      ],
+      "DimensionM2": 95,
+      "Bathrooms": 2,
+      "Bedrooms": 4,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-11",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018102361283792850.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018102361294287239.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018102361304257544.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018102361319897727.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018013062070170.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018013061367546.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018013061717065.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133461872454.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133462940732.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133463064030.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133462892456.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133461887616.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133461466016.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133466274885.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133474885381.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133476480058.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133476913349.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133477250844.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133472559990.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133472609134.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133473793957.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133470363970.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018062133472883618.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018102361386298871.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2017072551796111287.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20180109590465073.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20180109590007728.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20180109591277084.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20180109592591554.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20180109594607650.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20180621175623615.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20180621178829303.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20180621179224400.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_2018102361372558342.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20170707489721553.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20170707490608001.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20170707491113822.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20170707491652141.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20170707494771863.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282567_lsr_20170707493403764.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 150",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 120/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 12 personen",
+      "Description": "Tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden, ligt centraal gelegen in de Salzkammergut, het gezellige dorp Gosau.\n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze appartement welke als maisonnette is gerealiseerd, bevindt zich op de 4e en 5e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het terras, heeft een luxueuze open keuken en een gezellige eethoek. Naast 2 gewone slaapkamers en een algemene badkamer is er op deze etage tevens een familie slaapkamer met eigen badkamer en speciale kinderkamer voorzien van een stapelbed (indien gewenst ook geschikt voor volwassenen). 1 etage hoger, bereikbaar met een mooi gevormde trap, vindt u een woon/slaapkamer een badkamer en een slaapkamer. Elke slaapkamer is voorzien van kwalitatief zeer goede bedden. \n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n",
+      "Meta": "Apartment huren voor 12 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "12",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 957,
+          "MaxPrice": 2996
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1879,
+          "MaxPrice": 5957
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2801,
+          "MaxPrice": 8129
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 694,
+          "MaxPrice": 1155
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 694,
+          "MaxPrice": 1155
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 694,
+          "MaxPrice": 1155
+        }
+      ],
+      "DimensionM2": 130,
+      "Bathrooms": 3,
+      "Bedrooms": 5,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-12",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018102361671496039.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018102361572437381.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018102361600600938.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018102361608007524.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018102361616964131.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018013099509400.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018013099171762.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018013098822141.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133870654809.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133872389968.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133872621935.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133873830305.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133874237627.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133870301133.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133870251181.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133874505042.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133883575454.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133883436336.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133885095589.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133871884712.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133880749444.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133882094355.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133880943518.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018062133880255974.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2017072552237595434.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2017072552694518858.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20180109603283791.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20180109603642718.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20180109604357934.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20180109606496815.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20180109605063296.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20180621182469661.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20180621183783328.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_2018102361687559714.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20170707504862684.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20170707505576472.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20170707507508895.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20170707508833627.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20170707506623518.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282577_lsr_20170707509267835.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 160",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 128/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 14 personen",
+      "Description": "Centraal gelegen in de Salzkammergut, tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden ligt het gezellige dorp Gosau.\n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze, enorm grote appartement welke zich over de gehele diepte van het pand uitstrekt, bevindt zich op de 4e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het terras, heeft naast een open keuken een gezellige eethoek. Maar liefst 6 hoogwaardig ingerichte slaapkamers staan tot uw beschikking.\n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n\n",
+      "Meta": "Apartment huren voor 14 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "14",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 994,
+          "MaxPrice": 3139
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 1952,
+          "MaxPrice": 6244
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2911,
+          "MaxPrice": 8569
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 720,
+          "MaxPrice": 1286
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 720,
+          "MaxPrice": 1286
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 720,
+          "MaxPrice": 1286
+        }
+      ],
+      "DimensionM2": 139,
+      "Bathrooms": 3,
+      "Bedrooms": 6,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-13",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180621185583213.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018102361855073514.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018102361866187853.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018102361873631646.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018102361936664577.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018102361978546104.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018013063086726.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018013062406967.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018013062747413.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134459299906.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134460330400.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134460492364.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134459427062.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134463792336.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134464608307.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134475720006.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134475157641.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134472701049.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134465864278.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134472079501.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134473210071.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134468888621.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018062134471551085.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2017072552779490400.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180109613591647.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180109614648985.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180109615449741.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180109615815787.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180621184881415.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180621186633349.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180621187781939.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20180621188911704.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018102362004165600.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_2018102362003869341.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20170707517651070.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20170707518594677.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20170707520053693.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20170707523191092.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20170707521162718.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282578_lsr_20170707525062342.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 160",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 128/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
+      ],
+      "LayoutExtendedV2": []
+    },
+    {
+      "Title": "Apartment huren in Gosau, max 14 personen",
+      "Description": "Tussen het bekende Unesco dorp Hallstatt aan het prachtige Hallst\u00e4ttersee en het Dachstein gebergte met uiteenlopende skimogelijkheden, ligt centraal gelegen in de Salzkammergut, het gezellige dorp Gosau.\n\nMidden in het centrum van het dorp is dit prachtige hotel en appartementencomplex gelegen waar de bekende ski\u00ebrs Hermann Maier en Rainer Sch\u00f6nfelder mede het ontwerp hebben bepaald. Door de combinatie met het hotel, beschikt u als gast van de appartementen tevens over vele luxe faciliteiten zoals een prachtige wellness met sauna, een fitnessruimte,  gratis skibus naar de piste in de winter welke direct voor de deur stopt, een geweldig restaurant, waar u naast een heerlijk ontbijt ook goed kunt lunchen of dineren (ter plaatse regelen en betalen) en de mogelijkheid om uw appartement tussendoor te laten schoonmaken. Tevens kunt u in het complex gelijk uw skiverhuur, skischool en skipassen regelen en in de zomer uw fiets huren. \n\nUw luxueuze appartement welke als maisonnette is gerealiseerd bevindt zich op de 4e en 5e etage welke eenvoudig met de lift bereikt kan worden. Het appartement is zeer hoogwaardig, met oog voor detail ingericht. De woonkamer, met toegang tot het terras, heeft een luxueuze open keuken en een gezellige eethoek. Naast 3 gewone slaapkamers en een algemene badkamer is er op deze etage tevens een familie slaapkamer met eigen badkamer en speciale kinderkamer voorzien van een stapelbed (indien gewenst ook geschikt voor volwassenen). 1 etage hoger, bereikbaar met een mooi gevormde trap, vindt u een woon/slaapkamer, een badkamer en een slaapkamer. Elke slaapkamer is voorzien van kwalitatief zeer goede bedden. \n\nDachstein West, het grootste skigebied van Ober\u00f6sterreich, biedt totaal 142 km aan pistes en verbindt de plaatsen Annaberg, Russbach en Gosau met elkaar. Voor zowel beginners als gevorderden is dit een prachtig gebied. Doet u liever iets anders? Geen probleem er zijn volop mogelijkheden om te langlaufen, rodelen, wandelen of sneeuwschoenwandelen.\nIn de zomer is de schitterende natuur en de imposante bergen rondom de meren van de Salzkammergut een echte aanrader. Vergeet daarbij niet de bekendste hotspot het Unesco dorp Hallstatt te bezoeken. Sportieve vakantiegangers kunnen gebruik maken van de vele wandel- en klimroutes, waarbij de Gosausee zeker een bezoek waard is.\n\n\n",
+      "Meta": "Apartment huren voor 14 personen in Gosau, Ober\u00f6sterreich, Oostenrijk",
+      "HouseType": "Apartment",
+      "MaxPersons": "14",
+      "SkiArea": "DACH",
+      "HolidayPark": null,
+      "MinMaxPrice": [
+        {
+          "Period": "1 Week",
+          "MinPrice": 1019,
+          "MaxPrice": 3139
+        },
+        {
+          "Period": "2 Weeks",
+          "MinPrice": 2002,
+          "MaxPrice": 6244
+        },
+        {
+          "Period": "3 Weeks",
+          "MinPrice": 2986,
+          "MaxPrice": 8569
+        },
+        {
+          "Period": "Long week-end",
+          "MinPrice": 738,
+          "MaxPrice": 1286
+        },
+        {
+          "Period": "Midweek",
+          "MinPrice": 738,
+          "MaxPrice": 1286
+        },
+        {
+          "Period": "Week-end",
+          "MinPrice": 738,
+          "MaxPrice": 1286
+        }
+      ],
+      "DimensionM2": 151,
+      "Bathrooms": 3,
+      "Bedrooms": 6,
+      "Location": {
+        "Address": {
+          "PostalCode": "4824",
+          "Country": "Oostenrijk",
+          "Region": "Ober\u00f6sterreich",
+          "City": "Gosau",
+          "Subcity": ""
+        },
+        "Latitude": 13.534465,
+        "Longitude": 47.581324
+      },
+      "PropertyId": "AT-4824-14",
+      "Images": [
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018102362304732120.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018102362213505591.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018102362227406610.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018102362238275507.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018102362251772583.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20180130100513374.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20180130100172284.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018013099841239.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062134999767010.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062134999625460.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135000045637.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062134999993187.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135004493167.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135005485384.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135000610121.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135004417979.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135015373713.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135016743910.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135017344254.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135017635261.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135011796440.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135011939996.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135012717249.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135012624064.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018062135012595680.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2017072552811496601.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2017072552811239674.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20180109625189990.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20180109624837835.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20180109626616994.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20180621189619053.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20180621192192056.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20180621192956912.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018102362304082404.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_2018102362318065674.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20170707534238226.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20170707532716901.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20170707535269229.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20170707534732763.jpg",
+        "cdn.leisure-group.net/photo/web/2048x1365/282580_lsr_20170707537671053.jpg"
+      ],
+      "CostsOnSite": [
+        "Borgsom \u20ac 200 (U betaalt vooraf, niet ter plaatse, terug 7 dagen na vertrek)",
+        "Eindschoonmaak \u20ac 160",
+        "Huisdieren Max. 1; \u20ac 50/verblijf",
+        "Bedlinnen \u20ac 12 p.p./verblijf",
+        "Badlinnen Aanwezig",
+        "Keukenlinnen Aanwezig",
+        "Wifi Gratis",
+        "Toeristenbelasting \u20ac 2/persoon/nacht (Indicatie)",
+        "Catering Diner mogelijk",
+        "Ontbijt Mogelijk",
+        "Kinderbed + Kinderstoel gratis (op aanvraag)",
+        "Schoonmaak Tussentijdse schoonmaak \u20ac 128/keer",
+        "Diversen Broodjesservice"
+      ],
+      "PropertiesV1": [
+        "Appartement",
+        "Appartement",
+        "In een woonwijk of centrum (dorp)",
+        "Niet roken",
+        "WiFi"
       ],
       "LayoutExtendedV2": []
     }

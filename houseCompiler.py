@@ -52,22 +52,32 @@ def compileHouseData(house, houseExtra, refDics):
     subcity = langData['SubCity']
     formattedLocation = formattedLocation + ', ' + langData['SubCity']
   formattedLocation = formattedLocation + ', ' + region + ', ' + country
+  meta = houseType+' huren voor '+maxPersons+' personen in '+formattedLocation
 
-  costsOnSite = langData['CostsOnSite'] # features, amenities & more
+  costsOnSite = langData['CostsOnSite']
   compiledCostsOnSite = []
   for amn in costsOnSite:
     compiledCostsOnSite.append(amn['Description']+' '+amn['Value'])
   
   compiledPropertiesV1 = [] # todo: use refDics.properties
-  for prop in properties:
-    thing = {
-      
-    }
-    compiledPropertiesV1.append(thing)
+  for entry in properties:
+    for c in entry['TypeContents']:
+      thing = refDics.resolveProperty(c)
+      compiledPropertiesV1.append(thing)
 
   compiledLayoutExtendedV2 = [] # todo: use refDics.layoutItems & refDics.layoutDetails
+  for entry in layout:
+    itemKey = entry['Item']
+    item = refDics.resolvelayoutItem(itemKey)
+    thing = {
+      'Item': item,
+      'Details': []
+    }
+    if 'Details' in entry:
+      for detailKey in entry['Details']:
+        detail = refDics.resolveLayoutDetail(detailKey)
+        thing['Details'].append(detail)
 
-  meta = houseType+' huren voor '+maxPersons+' personen in '+formattedLocation
   compiled = { 'Title': title }
   compiled['Description'] = langData['Description']
   compiled['Meta'] = meta

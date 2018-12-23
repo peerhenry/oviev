@@ -2,11 +2,14 @@
 # for example: 208 - Tussenetage
 def compile(refItemsList):
   dic = dict()
+  counter = 0
   for typeEntry in refItemsList:
     itemsList = typeEntry['Items']
     for item in itemsList:
       number = item['Number']
-      dic[number] = extractDutchName(item)
+      dic[str(number)] = extractDutchName(item)
+      counter += 1
+  print('compiled '+str(counter)+' layout item refs')
   return dic
 
 def extractDutchName(element):

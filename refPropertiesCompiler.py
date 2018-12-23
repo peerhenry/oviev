@@ -1,11 +1,14 @@
 # Should return a dictionary of number - NL description
 def compile(refPropList):
   dic = dict()
+  counter = 0
   for typeEntry in refPropList:
     itemsList = typeEntry['Properties']
     for item in itemsList:
       number = item['Number']
-      dic[number] = extractDutchName(item)
+      dic[str(number)] = extractDutchName(item)
+      counter += 1
+  print('compiled '+str(counter)+' property refs')
   return dic
 
 def extractDutchName(element):

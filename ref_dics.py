@@ -1,3 +1,4 @@
+import json
 import refRegionCompiler
 import refPropertiesCompiler
 import refLayoutItemsCompiler
@@ -10,6 +11,14 @@ class RefDics:
     self.properties = self.generateRefProperties()
     self.layoutItems = self.generateRefLayoutItems()
     self.layoutDetails = self.generateRefLayoutDetails()
+    self.writeDicToFile(self.regions, 'regions')
+    self.writeDicToFile(self.properties, 'properties')
+    self.writeDicToFile(self.layoutItems, 'layoutItems')
+    self.writeDicToFile(self.layoutDetails, 'layoutDetails')
+    
+  def writeDicToFile(self, dic, name):
+    with open('ref_'+name+'.txt', 'w') as file:
+      file.write(json.dumps(dic))
   
   def generateRefRegions(self):
     result = self.fetcher.simpleFetchMethod('ReferenceRegionsV1')
@@ -27,21 +36,21 @@ class RefDics:
     result = self.fetcher.simpleFetchMethod('ReferenceLayoutDetailsV1')
     return refLayoutDetailsCompiler.compile(result)
 
-  def resolve(self, number, dic):
-    if number in dic:
-      return dic[number]
+  def resolve(self, number, dic, dicName):
+    if str(number) in dic:
+      return dic[str(number)]
     else:
-      print('Warning! A ref code was not found: ' + number)
-      return number
+      print('Warning! A ref code was not found in ' + dicName + ': ' + str(number))
+      return str(number)
 
   def resolveRegion(self, number):
-    return self.resolve(number, self.regions)
+    return self.resolve(number, self.regions, 'regions')
 
   def resolveProperty(self, number):
-    return self.resolve(number, self.properties)
+    return self.resolve(number, self.properties, 'properties')
   
   def resolvelayoutItem(self, number):
-    return self.resolve(number, self.layoutItems)
+    return self.resolve(number, self.layoutItems, 'layoutItems')
 
   def resolveLayoutDetail(self, number):
-    return self.resolve(number, self.layoutDetails)
+    return self.resolve(number, self.layoutDetails, 'layoutDetails')

@@ -84,10 +84,11 @@
     "Toeristenbelasting \u20ac 1,10/persoon/nacht (Indicatie)"
   ],
   "PropertiesV1": [
-    {},
-    {},
-    {},
-    {}
+    "Chalet",
+    "Vrijstaand",
+    "Landelijk",
+    "Niet roken",
+    "WiFi"
   ],
   "LayoutExtendedV2": []
 }

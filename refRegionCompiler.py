@@ -1,16 +1,20 @@
 def compile(regRefList):
   dic = dict()
+  counter = 0
   for el in regRefList:
     regions = el['Regions']
     countryCode = el['CountryCode']
     dutchCountryName = extractDutchName(el['CountryDescription'])
-    dic[countryCode] = dutchCountryName
+    dic[str(countryCode)] = dutchCountryName
+    counter += 1
     # add regions
     for reg in regions:
       code = reg['RegionCode']
       langNames = reg['RegionDescription']
       dutchName = extractDutchName(langNames)
-      dic[code] = dutchName
+      dic[str(code)] = dutchName
+      counter += 1
+  print('compiled '+str(counter)+' regions')
   return dic
 
 def extractDutchName(descriptionArray):
