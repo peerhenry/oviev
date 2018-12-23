@@ -1,4 +1,4 @@
-def compileRefDetails(refDetailsList):
+def compile(refDetailsList):
   dic = dict()
   for el in refDetailsList:
     number = el['Number']

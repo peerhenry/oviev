@@ -83,6 +83,11 @@
     "Wifi Gratis",
     "Toeristenbelasting \u20ac 1,10/persoon/nacht (Indicatie)"
   ],
-  "PropertiesV1": [],
+  "PropertiesV1": [
+    {},
+    {},
+    {},
+    {}
+  ],
   "LayoutExtendedV2": []
 }

@@ -10,17 +10,17 @@ def validateHouse(house):
   return jsonHasKeys(house, requiredKeys)
 
 def validateHouseExtra(houseExtra):
-  requiredKeys = ['HouseCode', 'BasicInformationV3', 'LanguagePackNLV4', 'MinMaxPriceV1']
+  requiredKeys = ['HouseCode', 'BasicInformationV3', 'LanguagePackNLV4', 'MinMaxPriceV1', 'PropertiesV1', 'LayoutExtendedV2']
   validLevel1 = jsonHasKeys(houseExtra, requiredKeys)
   if not validLevel1: return False
   return True
 
-def tryCompileHouseData(house, houseExtra, regionsDic):
+def tryCompileHouseData(house, houseExtra, refDics):
   validHouse = validateHouse(house)
   if not validHouse: return ''
   validHouseExtra = validateHouseExtra(houseExtra)
   if not validHouseExtra: return ''
-  return compileHouseData(house, houseExtra, regionsDic)
+  return compileHouseData(house, houseExtra, refDics)
 
 def resolveRegion(regCode, regDic):
   if regCode in regDic:
@@ -29,10 +29,13 @@ def resolveRegion(regCode, regDic):
     print('Warning! region code not found: ' + regCode)
     return regCode
 
-def compileHouseData(house, houseExtra, regionsDic):
+def compileHouseData(house, houseExtra, refDics):
   basics = houseExtra['BasicInformationV3']
   langData = houseExtra['LanguagePackNLV4']
   media = houseExtra['MediaV2']
+  properties = houseExtra['PropertiesV1']
+  layout = houseExtra['LayoutExtendedV2']
+
   houseType = house['HouseType']
   skiArea = house['SkiArea']
   city = langData['City']
@@ -41,20 +44,28 @@ def compileHouseData(house, houseExtra, regionsDic):
   title = houseType+' huren in '+city+', max '+maxPersons+' personen'
   holidayPark = basics['HolidayPark']
   countryCode = basics['Country']
-  country = resolveRegion(countryCode, regionsDic)
+  country = refDics.resolveRegion(countryCode)
   regionCode = basics['Region']
-  region = resolveRegion(regionCode, regionsDic)
+  region = refDics.resolveRegion(regionCode)
   formattedLocation = city
   if 'SubCity' in langData and langData['SubCity']:
     subcity = langData['SubCity']
     formattedLocation = formattedLocation + ', ' + langData['SubCity']
   formattedLocation = formattedLocation + ', ' + region + ', ' + country
+
   costsOnSite = langData['CostsOnSite'] # features, amenities & more
   compiledCostsOnSite = []
-  compiledPropertiesV1 = []
-  compiledLayoutExtendedV2 = []
   for amn in costsOnSite:
     compiledCostsOnSite.append(amn['Description']+' '+amn['Value'])
+  
+  compiledPropertiesV1 = [] # todo: use refDics.properties
+  for prop in properties:
+    thing = {
+      
+    }
+    compiledPropertiesV1.append(thing)
+
+  compiledLayoutExtendedV2 = [] # todo: use refDics.layoutItems & refDics.layoutDetails
 
   meta = houseType+' huren voor '+maxPersons+' personen in '+formattedLocation
   compiled = { 'Title': title }
@@ -112,3 +123,4 @@ def extractImageUrls(thing):
     firstVersion = content["Versions"][0]
     urls.append(firstVersion["URL"])
   return urls
+  

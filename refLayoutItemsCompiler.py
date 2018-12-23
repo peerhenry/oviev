@@ -1,6 +1,6 @@
 # Should return a dictionary of number - NL description
 # for example: 208 - Tussenetage
-def compileRefItems(refItemsList):
+def compile(refItemsList):
   dic = dict()
   for typeEntry in refItemsList:
     itemsList = typeEntry['Items']

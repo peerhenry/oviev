@@ -1,4 +1,4 @@
-def compileRefRegions(regRefList):
+def compile(regRefList):
   dic = dict()
   for el in regRefList:
     regions = el['Regions']

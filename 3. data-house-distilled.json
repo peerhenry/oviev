@@ -3928,5 +3928,208 @@
         }
       ]
     }
+  ],
+  "PropertiesV1": [
+    {
+      "TypeNumber": 10,
+      "TypeContents": [
+        60
+      ]
+    },
+    {
+      "TypeNumber": 20,
+      "TypeContents": [
+        210
+      ]
+    },
+    {
+      "TypeNumber": 30,
+      "TypeContents": [
+        360
+      ]
+    },
+    {
+      "TypeNumber": 50,
+      "TypeContents": [
+        502,
+        510
+      ]
+    }
+  ],
+  "LayoutExtendedV2": [
+    {
+      "Item": 200,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1
+    },
+    {
+      "Item": 1011,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 200,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 1015,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 200,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 1017,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 200,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 1025,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 200,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 1030,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 200,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 1030,
+      "SequenceNumber": 2,
+      "NumberOfItems": 1,
+      "ParentItem": 200,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 1042,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 200,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 3100,
+      "SequenceNumber": 2,
+      "NumberOfItems": 1
+    },
+    {
+      "Item": 3200,
+      "SequenceNumber": 2,
+      "NumberOfItems": 1
+    },
+    {
+      "Item": 10012,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 1030,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 10012,
+      "SequenceNumber": 2,
+      "NumberOfItems": 1,
+      "ParentItem": 1030,
+      "ParentSequenceNumber": 2
+    },
+    {
+      "Item": 10014,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 1015,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 10030,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 1015,
+      "ParentSequenceNumber": 1,
+      "Details": [
+        860
+      ]
+    },
+    {
+      "Item": 10130,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 1025,
+      "ParentSequenceNumber": 1,
+      "Details": [
+        740,
+        800
+      ]
+    },
+    {
+      "Item": 10180,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 1042,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 10190,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 1042,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 10240,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 1042,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 10250,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "ParentItem": 1042,
+      "ParentSequenceNumber": 1
+    },
+    {
+      "Item": 10255,
+      "SequenceNumber": 11,
+      "NumberOfItems": 1
+    },
+    {
+      "Item": 10353,
+      "SequenceNumber": 12,
+      "NumberOfItems": 1,
+      "Details": [
+        610
+      ]
+    },
+    {
+      "Item": 10356,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1,
+      "Details": [
+        100,
+        510
+      ]
+    },
+    {
+      "Item": 10358,
+      "SequenceNumber": 13,
+      "NumberOfItems": 1,
+      "Details": [
+        100
+      ]
+    },
+    {
+      "Item": 10360,
+      "SequenceNumber": 14,
+      "NumberOfItems": 1
+    },
+    {
+      "Item": 10363,
+      "SequenceNumber": 1,
+      "NumberOfItems": 1
+    }
   ]
 }

@@ -3,11 +3,8 @@ import json
 import sys
 import msvcrt as m
 from leisure_partners_fetcher import LeisurePartnersFetcher as Fetcher
+from ref_dics import RefDics
 import houseCompiler
-import refRegionCompiler
-import refPropertiesCompiler
-import refLayoutItemsCompiler
-import refLayoutDetailsCompiler
 
 allItems = [
   'BasicInformationV3',
@@ -28,7 +25,7 @@ allItems = [
   'DistancesV1',
 ]
 
-distilledItems = ['BasicInformationV3', 'LanguagePackNLV4', 'MinMaxPriceV1', 'MediaV2']
+distilledItems = ['BasicInformationV3', 'LanguagePackNLV4', 'MinMaxPriceV1', 'MediaV2', 'PropertiesV1', 'LayoutExtendedV2']
 
 counter = 0
 packageCounter = 1
@@ -41,11 +38,13 @@ def main():
   count = str(len(listOfHouses))
   print('Succesfully retrieved ' + count + ' results!')
   print('*')
-  refRegions = fetcher.fetchReferenceRegions()
-  regionsDic = refRegionCompiler.compileRefRegions(refRegions)
+
+  refDics = RefDics(fetcher)
+  # refRegions = fetcher.fetchReferenceRegions()
+  # regionsDic = refRegionCompiler.compileRefRegions(refRegions)
 
   house0 = listOfHouses[0]
-  generateDataRefs(fetcher, house0, regionsDic)
+  generateDataExamples(fetcher, house0, refDics)
   print('*')
   print('Ready to start data ofetch for each house...')
 
@@ -55,9 +54,18 @@ def main():
   downloadLimit = setting['downloadLimit']
 
   print('Starting data ofetch for each house...')
-  handleListOfHouses(fetcher, listOfHouses, regionsDic, packageLimit, downloadLimit)
+  handleListOfHouses(fetcher, listOfHouses, refDics, packageLimit, downloadLimit)
   print('*')
   outro()
+
+
+def intro():
+  print()
+  print("############ Leisure Partners Package Maker v1.0 ############")
+  print("This process will retrieve data from www.leisure-partners.net and assemble one or more files that are suitable for WP All Import")
+  print()
+
+# vvvvvvvvvvvvvvvvvvvv PROMPT vvvvvvvvvvvvvvvvvvvv
 
 def promptForSettings():
   settings = dict()
@@ -90,27 +98,23 @@ def promtForNumber(prompt):
   else:
     return int(limit)
 
-def intro():
-  print()
-  print("############ Leisure Partners Package Maker v1.0 ############")
-  print("This process will retrieve data from www.leisure-partners.net and assemble one or more files that are suitable for WP All Import")
-  print()
+# ^^^^^^^^^^^^^^^^^^^^ PROMPT ^^^^^^^^^^^^^^^^^^^^
 
-def handleListOfHouses(fetcher, listOfHouses, regionsDic, packageLimit, downloadLimit):
+def handleListOfHouses(fetcher, listOfHouses, refDics, packageLimit, downloadLimit):
   count = len(listOfHouses)
   if downloadLimit >= 1:
     count = downloadLimit
   while counter < count:
-    handleListOfHousesInRange(fetcher, listOfHouses, regionsDic, packageLimit, count)
+    handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, count)
 
-def handleListOfHousesInRange(fetcher, listOfHouses, regionsDic, packageLimit, count):
+def handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, count):
   global counter
   global packageCounter
   compiledHouses = []
   for n in range(packageLimit):
     house = listOfHouses[counter]
     distilledData = distillHouseData(fetcher, house)
-    compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, regionsDic)
+    compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, refDics)
     compiledHouses.append(compileHouseData)
     counter += 1
     if counter >= count: break
@@ -121,7 +125,7 @@ def handleListOfHousesInRange(fetcher, listOfHouses, regionsDic, packageLimit, c
   writeToJson('data-package-' + str(packageCounter), serializable)
   packageCounter += 1
 
-def generateDataRefs(fetcher, house, regionsDic):
+def generateDataExamples(fetcher, house, refDics):
   writeToJson('1. data-house-list-item', house)
   code = house['HouseCode']
   allDetails = fetcher.fetchHouseDetails([ code ], allItems)
@@ -129,7 +133,7 @@ def generateDataRefs(fetcher, house, regionsDic):
   distilledData = distillHouseData(fetcher, house)
   del distilledData['LanguagePackNLV4']['GuestBook']
   writeToJson('3. data-house-distilled', distilledData)
-  compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, regionsDic)
+  compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, refDics)
   writeToJson('4. data-house-compiled', compileHouseData)
 
 def distillHouseData(fetcher, house):

@@ -1,5 +1,5 @@
 # Should return a dictionary of number - NL description
-def compileRefProperties(refPropList):
+def compile(refPropList):
   dic = dict()
   for typeEntry in refPropList:
     itemsList = typeEntry['Properties']
@@ -9,7 +9,7 @@ def compileRefProperties(refPropList):
   return dic
 
 def extractDutchName(element):
-  descriptionArray = element['Description']
+  descriptionArray = element['PropertyDescription']
   for langName in descriptionArray:
     if langName['Language'] == 'NL':
       return langName['Description']
