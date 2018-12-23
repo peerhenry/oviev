@@ -23,6 +23,8 @@
       "MaxPrice": 2411
     }
   ],
+  "ExceedNumberOfBabies": 1,
+  "NumberOfStars": 3,
   "DimensionM2": 100,
   "Bathrooms": 1,
   "Bedrooms": 2,
@@ -73,122 +75,13 @@
     "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120284592242.jpg",
     "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120293491888.jpg"
   ],
-  "CostsOnSite": [
-    "Eindschoonmaak \u20ac 50",
-    "Huisdieren Niet toegestaan",
-    "Bedlinnen Aanwezig",
-    "Badlinnen Aanwezig",
-    "Keukenlinnen Aanwezig",
-    "Gas/Olie \u20ac 0,75/m3",
-    "Wifi Gratis",
-    "Toeristenbelasting \u20ac 1,10/persoon/nacht (Indicatie)"
-  ],
-  "PropertiesV1": [
-    "Chalet",
-    "Vrijstaand",
-    "Landelijk",
-    "Niet roken",
-    "WiFi"
-  ],
-  "LayoutExtendedV2": [
-    {
-      "Item": "Parterre"
-    },
-    {
-      "Item": "gang"
-    },
-    {
-      "Item": "woonkamer"
-    },
-    {
-      "Item": "eetkamer"
-    },
-    {
-      "Item": "kitchenette"
-    },
-    {
-      "Item": "slaapkamer"
-    },
-    {
-      "Item": "slaapkamer"
-    },
-    {
-      "Item": "badkamer"
-    },
-    {
-      "Item": "garage"
-    },
-    {
-      "Item": "carport"
-    },
-    {
-      "Item": "2-pers. bed"
-    },
-    {
-      "Item": "2-pers. bed"
-    },
-    {
-      "Item": "2-pers. slaapbank"
-    },
-    {
-      "Item": "TV",
-      "Details": [
-        "satelliet"
-      ]
-    },
-    {
-      "Item": "oven",
-      "Details": [
-        "grilloven",
-        "mini"
-      ]
-    },
-    {
-      "Item": "ligbad"
-    },
-    {
-      "Item": "bad met douche"
-    },
-    {
-      "Item": "wastafel"
-    },
-    {
-      "Item": "toilet"
-    },
-    {
-      "Item": "wasmachine"
-    },
-    {
-      "Item": "verwarming",
-      "Details": [
-        "CV"
-      ]
-    },
-    {
-      "Item": "terras",
-      "Details": [
-        "priv\u00e9",
-        "overdekt"
-      ]
-    },
-    {
-      "Item": "tuin",
-      "Details": [
-        "priv\u00e9"
-      ]
-    },
-    {
-      "Item": "tuinmeubilair"
-    },
-    {
-      "Item": "parking"
-    }
-  ],
   "Amenities": [
     "Landelijk",
     "Niet roken",
+    "WiFi",
     "oven",
     "wasmachine",
-    "tuin"
+    "tuin",
+    "Huisdieren niet toegestaan"
   ]
 }

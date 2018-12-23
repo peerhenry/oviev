@@ -28,6 +28,7 @@ allItems = [
 distilledItems = ['BasicInformationV3', 'LanguagePackNLV4', 'MinMaxPriceV1', 'MediaV2', 'PropertiesV1', 'LayoutExtendedV2']
 
 counter = 0
+compileCounter = 0
 packageCounter = 1
 
 def main():
@@ -38,26 +39,19 @@ def main():
   count = str(len(listOfHouses))
   print('Succesfully retrieved ' + count + ' results!')
   print('*')
-
   refDics = RefDics(fetcher)
-  # refRegions = fetcher.fetchReferenceRegions()
-  # regionsDic = refRegionCompiler.compileRefRegions(refRegions)
-
   house0 = listOfHouses[0]
   generateDataExamples(fetcher, house0, refDics)
   print('*')
   print('Ready to start data ofetch for each house...')
-
   print('Note that downloading all data at once can take up to 2 hours...')
   setting = promptForSettings()
   packageLimit = setting['packageLimit']
   downloadLimit = setting['downloadLimit']
-
   print('Starting data ofetch for each house...')
   handleListOfHouses(fetcher, listOfHouses, refDics, packageLimit, downloadLimit)
   print('*')
   outro()
-
 
 def intro():
   print()
@@ -107,17 +101,34 @@ def handleListOfHouses(fetcher, listOfHouses, refDics, packageLimit, downloadLim
   while counter < count:
     handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, count)
 
+def houseHasValidBrand(house):
+  brands = house['Brands']
+  for brand in brands:
+    if brand['Brand'] == 'BV':
+      return True
+  return False
+
+def houseIsValid(house):
+  houseType = house['HouseType']
+  if houseType == 'Boot' or houseType == 'Woonboot' or houseType == 'Tent lodge':
+    return False
+  return houseHasValidBrand(house)
+
 def handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, count):
   global counter
+  global compileCounter
   global packageCounter
   compiledHouses = []
   for n in range(packageLimit):
     house = listOfHouses[counter]
-    distilledData = distillHouseData(fetcher, house)
-    compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, refDics)
-    compiledHouses.append(compileHouseData)
     counter += 1
-    if counter >= count: break
+    valid = houseIsValid(house)
+    if valid:
+      distilledData = distillHouseData(fetcher, house)
+      compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, refDics)
+      compiledHouses.append(compileHouseData)
+      compileCounter += 1
+    if compileCounter >= count: break
     printProgress(counter, count)
   serializable = {
     'Houses': compiledHouses
