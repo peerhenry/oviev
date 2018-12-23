@@ -34,39 +34,56 @@ def compileHouseData(house, houseExtra, regionsDic):
   langData = houseExtra['LanguagePackNLV4']
   media = houseExtra['MediaV2']
   houseType = house['HouseType']
+  skiArea = house['SkiArea']
   city = langData['City']
+  subcity = ''
   maxPersons = str(basics['MaxNumberOfPersons'])
-  title = houseType+' huren in '+city+', max '+maxPersons+'personen'
-
+  title = houseType+' huren in '+city+', max '+maxPersons+' personen'
+  holidayPark = basics['HolidayPark']
   countryCode = basics['Country']
   country = resolveRegion(countryCode, regionsDic)
   regionCode = basics['Region']
   region = resolveRegion(regionCode, regionsDic)
   formattedLocation = city
   if 'SubCity' in langData and langData['SubCity']:
+    subcity = langData['SubCity']
     formattedLocation = formattedLocation + ', ' + langData['SubCity']
   formattedLocation = formattedLocation + ', ' + region + ', ' + country
+  costsOnSite = langData['CostsOnSite'] # features, amenities & more
+  compiledCostsOnSite = []
+  compiledPropertiesV1 = []
+  compiledLayoutExtendedV2 = []
+  for amn in costsOnSite:
+    compiledCostsOnSite.append(amn['Description']+' '+amn['Value'])
 
-  meta = houseType+' huren voor '+maxPersons+'personen in '+formattedLocation
+  meta = houseType+' huren voor '+maxPersons+' personen in '+formattedLocation
   compiled = { 'Title': title }
   compiled['Description'] = langData['Description']
-  compiled['meta'] = meta
+  compiled['Meta'] = meta
+  compiled['HouseType'] = houseType
+  compiled['MaxPersons'] = maxPersons
+  compiled['SkiArea'] = skiArea
+  compiled['HolidayPark'] = holidayPark
   # todo: get currency
   compiled['MinMaxPrice'] = houseExtra['MinMaxPriceV1'] # price, pricesuffix
-  compiled['Area'] = basics['DimensionM2']
+  compiled['DimensionM2'] = basics['DimensionM2']
   compiled['Bathrooms'] = basics['NumberOfBathrooms']
   compiled['Bedrooms'] = basics['NumberOfBedrooms']
-  compiled['CreationDate'] = basics['CreationDate']
+  # compiled['CreationDate'] = basics['CreationDate'] # removed per request
+
   # ? landlord
   # ? agencies
   # ? agents
   # ? sliderimage
+
   compiled['Location'] = {
     'Address': {
       # missing street address
       'PostalCode': basics['ZipPostalCode'],
       'Country': country,
-      'Region': region
+      'Region': region,
+      'City': city,
+      'Subcity': subcity
     },
     'Latitude': basics['WGS84Longitude'],
     'Longitude': basics['WGS84Latitude']
@@ -81,6 +98,11 @@ def compileHouseData(house, houseExtra, regionsDic):
     if thing['Type'] == 'Photos':
       urls = extractImageUrls(thing)
       compiled['Images'] = urls
+  
+  compiled['CostsOnSite'] = compiledCostsOnSite
+  compiled['PropertiesV1'] = compiledPropertiesV1
+  compiled['LayoutExtendedV2'] = compiledLayoutExtendedV2
+
   return compiled
 
 def extractImageUrls(thing):

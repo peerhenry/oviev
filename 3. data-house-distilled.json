@@ -81,17 +81,17 @@
     {
       "Period": "1 Week",
       "MinPrice": 631,
-      "MaxPrice": 814
+      "MaxPrice": 825
     },
     {
       "Period": "2 Weeks",
       "MinPrice": 1229,
-      "MaxPrice": 1595
+      "MaxPrice": 1618
     },
     {
       "Period": "3 Weeks",
       "MinPrice": 1827,
-      "MaxPrice": 2377
+      "MaxPrice": 2411
     }
   ],
   "MediaV2": [

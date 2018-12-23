@@ -2,13 +2,17 @@ import requests
 import json
 import sys
 import msvcrt as m
+from leisure_partners_fetcher import LeisurePartnersFetcher as Fetcher
 import houseCompiler
-import regionCompiler
+import refRegionCompiler
+import refPropertiesCompiler
+import refLayoutItemsCompiler
+import refLayoutDetailsCompiler
 
 allItems = [
   'BasicInformationV3',
   'MediaV2',
-  'LanguagePackNLV4',
+  'LanguagePackNLV4', # contains CostsOnSite
   # 'LanguagePackFRV4',
   # 'LanguagePackDEV4',
   # 'LanguagePackENV4',
@@ -17,19 +21,14 @@ allItems = [
   # 'LanguagePackPLV4',
   'MinMaxPriceV1',
   'AvailabilityPeriodV1',
-  'PropertiesV1',
+  'PropertiesV1', # contains references to ReferencePropertiesV1
   'CostsOnSiteV1',
-  'LayoutExtendedV2',
+  'LayoutExtendedV2', # contains references to ReferenceLayoutItemsV1 and ReferenceLayoutDetailsV1
   'DistancesV2',
   'DistancesV1',
 ]
 
 distilledItems = ['BasicInformationV3', 'LanguagePackNLV4', 'MinMaxPriceV1', 'MediaV2']
-
-loginParams = {
-  'WebpartnerCode': '?',
-  'WebpartnerPassword': '?'
-}
 
 counter = 0
 packageCounter = 1
@@ -37,24 +36,26 @@ packageCounter = 1
 def main():
   intro()
   print('fetching list of houses...')
-  listOfHouses = fetchListOfHouses()
+  fetcher = Fetcher()
+  listOfHouses = fetcher.fetchListOfHouses()
   count = str(len(listOfHouses))
   print('Succesfully retrieved ' + count + ' results!')
   print('*')
-  refRegions = fetchReferenceRegions()
-  regionsDic = regionCompiler.compileRegions(refRegions)
+  refRegions = fetcher.fetchReferenceRegions()
+  regionsDic = refRegionCompiler.compileRefRegions(refRegions)
+
   house0 = listOfHouses[0]
-  generateDataRefs(house0, regionsDic)
+  generateDataRefs(fetcher, house0, regionsDic)
   print('*')
-  print('Ready to start data fetch for each house...')
+  print('Ready to start data ofetch for each house...')
 
   print('Note that downloading all data at once can take up to 2 hours...')
   setting = promptForSettings()
   packageLimit = setting['packageLimit']
   downloadLimit = setting['downloadLimit']
 
-  print('Starting data fetch for each house...')
-  handleListOfHouses(listOfHouses, regionsDic, packageLimit, downloadLimit)
+  print('Starting data ofetch for each house...')
+  handleListOfHouses(fetcher, listOfHouses, regionsDic, packageLimit, downloadLimit)
   print('*')
   outro()
 
@@ -95,58 +96,20 @@ def intro():
   print("This process will retrieve data from www.leisure-partners.net and assemble one or more files that are suitable for WP All Import")
   print()
 
-def createRpc(method, params):
-  output = {
-    'jsonrpc': '2.0',
-    'method': method,
-    'params': params,
-    'id': 22298
-  }
-  return output
-
-def httpPost(url, method, params):
-  jsonPayload = createRpc(method, params)
-  payload = json.dumps(jsonPayload)
-  headers = {
-    'Content-Type': "application/json",
-    'cache-control': "no-cache",
-  }
-  response = requests.request("POST", url, data=payload, headers=headers)
-  return response
-
-def callLeisurePartners(method, params):
-  url = 'https://' + method.lower() + '.jsonrpc-partner.net/cgi/lars/jsonrpc-partner/jsonrpc.htm'
-  return httpPost(url, method, params)
-
-def handleStatus(name, status):
-  if status != 200 :
-    print('http error during ' + name + ', status: ' + str(status))
-    print('Press any key to exit...')
-    m.getch()
-    sys.exit(0)
-
-def fetchListOfHouses():
-  method = 'ListOfHousesV1'
-  response = callLeisurePartners(method, loginParams)
-  handleStatus(method, response.status_code)
-  jsonResult = json.loads(response.text)
-  resultList = jsonResult["result"]
-  return resultList
-
-def handleListOfHouses(listOfHouses, regionsDic, packageLimit, downloadLimit):
+def handleListOfHouses(fetcher, listOfHouses, regionsDic, packageLimit, downloadLimit):
   count = len(listOfHouses)
   if downloadLimit >= 1:
     count = downloadLimit
   while counter < count:
-    handleListOfHousesInRange(listOfHouses, regionsDic, packageLimit, count)
+    handleListOfHousesInRange(fetcher, listOfHouses, regionsDic, packageLimit, count)
 
-def handleListOfHousesInRange(listOfHouses, regionsDic, packageLimit, count):
+def handleListOfHousesInRange(fetcher, listOfHouses, regionsDic, packageLimit, count):
   global counter
   global packageCounter
   compiledHouses = []
   for n in range(packageLimit):
     house = listOfHouses[counter]
-    distilledData = distillHouseData(house)
+    distilledData = distillHouseData(fetcher, house)
     compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, regionsDic)
     compiledHouses.append(compileHouseData)
     counter += 1
@@ -157,47 +120,22 @@ def handleListOfHousesInRange(listOfHouses, regionsDic, packageLimit, count):
   }
   writeToJson('data-package-' + str(packageCounter), serializable)
   packageCounter += 1
-  
 
-def fetchReferenceRegions():
-  method = 'ReferenceRegionsV1'
-  response = callLeisurePartners(method, loginParams)
-  handleStatus(method, response.status_code)
-  jsonResult = json.loads(response.text)
-  resultList = jsonResult["result"]
-  return resultList
-
-def generateDataRefs(house, regionsDic):
+def generateDataRefs(fetcher, house, regionsDic):
   writeToJson('1. data-house-list-item', house)
   code = house['HouseCode']
-  allDetails = fetchHouseDetails([ code ], allItems)
+  allDetails = fetcher.fetchHouseDetails([ code ], allItems)
   writeToJson('2. data-house-all-details', allDetails)
-  distilledData = distillHouseData(house)
+  distilledData = distillHouseData(fetcher, house)
   del distilledData['LanguagePackNLV4']['GuestBook']
   writeToJson('3. data-house-distilled', distilledData)
   compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, regionsDic)
   writeToJson('4. data-house-compiled', compileHouseData)
 
-def distillHouseData(house):
+def distillHouseData(fetcher, house):
   code = house['HouseCode']
-  distilled = fetchHouseDetails([ code ], distilledItems )
+  distilled = fetcher.fetchHouseDetails([ code ], distilledItems )
   return distilled
-
-def fetchHouseDetails(codes, items):
-  params = {
-    'WebpartnerCode': 'susanvannoort',
-    'WebpartnerPassword': '@belvilla11', # old pw: '@belvilla11', new pw: '5ofd3r'
-    'HouseCodes': codes,
-    'Items': items
-  }
-  response = callLeisurePartners('DataOfHousesV1', params)
-  status = response.status_code
-  if status != 200:
-    print('http error during fetchHouseDetails, status: ' + str(status))
-    sys.exit(0)
-  jsonResult = json.loads(response.text)
-  result = jsonResult["result"]
-  return result[0]
 
 def writeToJson(fileName, jsonObject):
   fileNameExt = fileName + '.json'

@@ -1,4 +1,5 @@
 pw.txt
+credentials.py
 build
 dist
 .vscode

@@ -1,0 +1,14 @@
+
+23-12-2018
+- renamed 'Area' to 'DimensionM2' in order to be consistent with original data
+- capitalized all keys
+- removed CreationDate
+- Added:
+  - city and subcity to address
+  - SkiArea
+  - HolidayPark
+  - HouseType
+  - MaxPersons
+  - CostsOnSite... (onder voorbehoud)
+  - PropertiesV1... (onder voorbehoud)
+  - LayoutExtendedV2... (onder voorbehoud)

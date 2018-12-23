@@ -1,33 +1,38 @@
 {
-  "Title": "Chalet huren in Kaumberg, max 5personen",
+  "Title": "Chalet huren in Kaumberg, max 5 personen",
   "Description": "Een charmant chalet  voor 5 personen met een groot overdekt priv\u00e9terras midden in de bossen van Kaumberg nabij Wenen. \nVerblijf in een sfeervol chalet met een ruime woonkamer met een slaapbank en twee slaapkamers beide met een tweepersoonsbed.  Alle traditioneel ingericht. De vakantiewoning heeft een wasmachine, gratis WIFI en de badkamer is uitgerust met een ligbad, douche, wastafel en toilet. Direct bij het vakantiechalet kunt u de auto parkeren in de garage of onder de carport. Zo kunt u met de auto gemakkelijk en snel de gevarieerde omgeving van Kaumberg ontdekken.\n\nDe omgeving is wat dit vakantiehuis zo bijzonder maakt. Het chalet ligt in het Oostenrijkse Mostviertel met een prachtig landschap waar u vele kasteelru\u00efnes vindt. Op 35 minuten rijden ligt de historische stad Wenen, waar u een bezoek kunt brengen aan het beroemde Sissi museum, het Hofburg Paleis en het romantische park Belv\u00e9d\u00e8re. Vanuit de woning kunt u ook een bezoek brengen aan het Mayerling jachtslot of het grote Neusiedlersee, een prachtig steppemeer op de grens van Oostenrijk en Hongarije. Een zeer geschikte woning voor een verblijf waarbij natuur en cultuur hand in hand gaan.  \n",
-  "meta": "Chalet huren voor 5personen in Kaumberg, Nieder\u00f6sterreich / Wenen, Oostenrijk",
+  "Meta": "Chalet huren voor 5 personen in Kaumberg, Nieder\u00f6sterreich / Wenen, Oostenrijk",
+  "HouseType": "Chalet",
+  "MaxPersons": "5",
+  "SkiArea": "",
+  "HolidayPark": null,
   "MinMaxPrice": [
     {
       "Period": "1 Week",
       "MinPrice": 631,
-      "MaxPrice": 814
+      "MaxPrice": 825
     },
     {
       "Period": "2 Weeks",
       "MinPrice": 1229,
-      "MaxPrice": 1595
+      "MaxPrice": 1618
     },
     {
       "Period": "3 Weeks",
       "MinPrice": 1827,
-      "MaxPrice": 2377
+      "MaxPrice": 2411
     }
   ],
-  "Area": 100,
+  "DimensionM2": 100,
   "Bathrooms": 1,
   "Bedrooms": 2,
-  "CreationDate": "2008-07-04",
   "Location": {
     "Address": {
       "PostalCode": "2572",
       "Country": "Oostenrijk",
-      "Region": "Nieder\u00f6sterreich / Wenen"
+      "Region": "Nieder\u00f6sterreich / Wenen",
+      "City": "Kaumberg",
+      "Subcity": ""
     },
     "Latitude": 15.893185,
     "Longitude": 48.019087
@@ -67,5 +72,17 @@
     "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415382869475.jpg",
     "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120284592242.jpg",
     "cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120293491888.jpg"
-  ]
+  ],
+  "CostsOnSite": [
+    "Eindschoonmaak \u20ac 50",
+    "Huisdieren Niet toegestaan",
+    "Bedlinnen Aanwezig",
+    "Badlinnen Aanwezig",
+    "Keukenlinnen Aanwezig",
+    "Gas/Olie \u20ac 0,75/m3",
+    "Wifi Gratis",
+    "Toeristenbelasting \u20ac 1,10/persoon/nacht (Indicatie)"
+  ],
+  "PropertiesV1": [],
+  "LayoutExtendedV2": []
 }
