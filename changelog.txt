@@ -9,10 +9,13 @@
   - HolidayPark
   - HouseType
   - MaxPersons
-  - amenities
+  - amenities as CSV
+  - amenities are selected as specified by spreadsheet
   - CostsOnSite... (voor debug)
   - PropertiesV1... (voor debug)
   - LayoutExtendedV2... (voor debug)
 - huizen worden gefilterd:
   - HouseType 'Boot', 'Woonboot' of 'Tent lodge' komen niet in de package
   - Huizen die geen 'BV' in de Brands hebben staan komen niet in de package
+- images are formatted as a CSV
+- images are prepended http://

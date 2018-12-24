@@ -8,7 +8,7 @@ def compile(refPropList):
       number = item['Number']
       dic[str(number)] = extractDutchName(item)
       counter += 1
-  print('compiled '+str(counter)+' property refs')
+  # print('compiled '+str(counter)+' property refs')
   return dic
 
 def extractDutchName(element):

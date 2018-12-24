@@ -9,7 +9,7 @@ def compile(refItemsList):
       number = item['Number']
       dic[str(number)] = extractDutchName(item)
       counter += 1
-  print('compiled '+str(counter)+' layout item refs')
+  # print('compiled '+str(counter)+' layout item refs')
   return dic
 
 def extractDutchName(element):

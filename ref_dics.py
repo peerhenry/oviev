@@ -13,10 +13,10 @@ class RefDics:
     self.properties = self.generateRefProperties()
     self.layoutItems = self.generateRefLayoutItems()
     self.layoutDetails = self.generateRefLayoutDetails()
-    self.writeDicToFile(self.regions, 'regions')
-    self.writeDicToFile(self.properties, 'properties')
-    self.writeDicToFile(self.layoutItems, 'layoutItems')
-    self.writeDicToFile(self.layoutDetails, 'layoutDetails')
+    # self.writeDicToFile(self.regions, 'regions')
+    # self.writeDicToFile(self.properties, 'properties')
+    # self.writeDicToFile(self.layoutItems, 'layoutItems')
+    # self.writeDicToFile(self.layoutDetails, 'layoutDetails')
     
   def writeDicToFile(self, dic, name):
     with open('ref_'+name+'.txt', 'w') as file:

@@ -14,7 +14,7 @@ def compile(regRefList):
       dutchName = extractDutchName(langNames)
       dic[str(code)] = dutchName
       counter += 1
-  print('compiled '+str(counter)+' regions')
+  # print('compiled '+str(counter)+' regions')
   return dic
 
 def extractDutchName(descriptionArray):

@@ -5,7 +5,7 @@ def compile(refDetailsList):
     number = el['Number']
     dic[str(number)] = extractDutchName(el)
     counter += 1
-  print('compiled '+str(counter)+' layout detail refs')
+  # print('compiled '+str(counter)+' layout detail refs')
   return dic
 
 def extractDutchName(element):

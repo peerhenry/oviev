@@ -6,7 +6,7 @@ def compile(refPropList):
     number = typeEntry['TypeNumber']
     dic[str(number)] = extractDutchName(typeEntry)
     counter += 1
-  print('compiled '+str(counter)+' property type refs')
+  # print('compiled '+str(counter)+' property type refs')
   return dic
 
 def extractDutchName(element):

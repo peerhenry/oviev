@@ -180,12 +180,12 @@ def compileHouseData(house, houseExtra, refDics):
   for thing in media:
     if thing['Type'] == 'Photos':
       urls = extractImageUrls(thing)
-      compiled['Images'] = urls
+      compiled['Images'] = ','.join(urls)
   
   # compiled['CostsOnSite'] = compiledCostsOnSite # debug
   # compiled['PropertiesV1'] = compiledPropertiesV1 # debug
   # compiled['LayoutExtendedV2'] = compiledLayoutExtendedV2 # debug
-  compiled['Amenities'] = amenities
+  compiled['Amenities'] = ','.join(amenities)
 
   return compiled
 
@@ -194,6 +194,6 @@ def extractImageUrls(thing):
   contents = thing['TypeContents']
   for content in contents:
     firstVersion = content["Versions"][0]
-    urls.append(firstVersion["URL"])
+    urls.append('http://'+firstVersion["URL"])
   return urls
   
