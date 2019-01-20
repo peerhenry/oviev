@@ -6,3 +6,4 @@ dist
 __pycache__
 data-package-1.json
 data-package-*.json
+reference_data.zip

@@ -19,3 +19,8 @@ V2 23-12-2018
   - Huizen die geen 'BV' in de Brands hebben staan komen niet in de package
 - images are formatted as a CSV
 - images are prepended http://
+
+
+V3 20-01-2019
+- Genereer leesbare reference data
+- image url wordt nu variant 4 gekozen => kleinere resolutie 600x400

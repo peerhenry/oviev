@@ -20,7 +20,7 @@ class RefDics:
     
   def writeDicToFile(self, dic, name):
     with open('ref_'+name+'.txt', 'w') as file:
-      file.write(json.dumps(dic))
+      file.write(json.dumps(dic, indent=4))
   
   def generateRefRegions(self):
     result = self.fetcher.simpleFetchMethod('ReferenceRegionsV1')

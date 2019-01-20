@@ -40,8 +40,8 @@ def main():
   print('Succesfully retrieved ' + count + ' results!')
   print('*')
   refDics = RefDics(fetcher)
-  house0 = listOfHouses[0]
-  generateDataExamples(fetcher, house0, refDics)
+  house1 = listOfHouses[1]
+  generateDataExamples(fetcher, house1, refDics)
   print('*')
   print('Ready to start data ofetch for each house...')
   print('Note that downloading all data at once can take up to 2 hours...')

@@ -1,45 +1,55 @@
 {
-  "Title": "Chalet huren in Kaumberg, max 5 personen",
-  "Description": "Een charmant chalet  voor 5 personen met een groot overdekt priv\u00e9terras midden in de bossen van Kaumberg nabij Wenen. \nVerblijf in een sfeervol chalet met een ruime woonkamer met een slaapbank en twee slaapkamers beide met een tweepersoonsbed.  Alle traditioneel ingericht. De vakantiewoning heeft een wasmachine, gratis WIFI en de badkamer is uitgerust met een ligbad, douche, wastafel en toilet. Direct bij het vakantiechalet kunt u de auto parkeren in de garage of onder de carport. Zo kunt u met de auto gemakkelijk en snel de gevarieerde omgeving van Kaumberg ontdekken.\n\nDe omgeving is wat dit vakantiehuis zo bijzonder maakt. Het chalet ligt in het Oostenrijkse Mostviertel met een prachtig landschap waar u vele kasteelru\u00efnes vindt. Op 35 minuten rijden ligt de historische stad Wenen, waar u een bezoek kunt brengen aan het beroemde Sissi museum, het Hofburg Paleis en het romantische park Belv\u00e9d\u00e8re. Vanuit de woning kunt u ook een bezoek brengen aan het Mayerling jachtslot of het grote Neusiedlersee, een prachtig steppemeer op de grens van Oostenrijk en Hongarije. Een zeer geschikte woning voor een verblijf waarbij natuur en cultuur hand in hand gaan.  \n",
-  "Meta": "Chalet huren voor 5 personen in Kaumberg, Nieder\u00f6sterreich / Wenen, Oostenrijk",
-  "HouseType": "Chalet",
-  "MaxPersons": "5",
+  "Title": "Holiday home huren in Litschau, max 6 personen",
+  "Description": "Midden in de heerlijke natuur en het idyllische heuvellandschap van het mooie \u201cWaldviertel\u201d is het park K\u00f6nigsleitn gelegen. Dit park bestaat uit 15 geheel in stijl gebouwde woningen waarin meerdere appartementen zijn ondergebracht. Uw ruime appartement is verdeeld over 2 verdiepingen waarbij u op de begaande grond de beschikking heeft over een ruime woonkamer met terras of balkon een open keuken en toilet en waar u via de open trap op de 1e etage beschikt over 2 ruime slaapkamers en badkamer. In het restaurant van het park kunt u tegen meerprijs gebruik maken van een heerlijk ontbijt, lunch of diner. Op het park komt u o.a. speeltuinen, beachvolleybal, tennisbanen, squash, tafeltennis en sauna tegen (deels tegen betaling) De golf liefhebbers kunnen gelijk bij het park de eerste golfballen slaan. De naastgelegen \u201cHerrensee\u201d biedt voor de zwemmers, wandelaars en zonaanbidders volop mogelijkheden. Kortom een unieke bestemming om te genieten van uw welverdiende vakantie.\n\nBijzonderheden:\nIn het laagseizoen en in de wintermaanden is het mogelijk dat diverse faciliteiten en het restaurant gesloten zijn. In het dorp Litschau zijn echter voldoende alternatieven.\n",
+  "Meta": "Holiday home huren voor 6 personen in Litschau, Nieder\u00f6sterreich / Wenen, Oostenrijk",
+  "HouseType": "Holiday home",
+  "MaxPersons": "6",
   "SkiArea": "",
-  "HolidayPark": null,
+  "HolidayPark": "at-3874-001",
   "MinMaxPrice": [
     {
       "Period": "1 Week",
-      "MinPrice": 631,
-      "MaxPrice": 825
+      "MinPrice": 883,
+      "MaxPrice": 1165
     },
     {
       "Period": "2 Weeks",
-      "MinPrice": 1229,
-      "MaxPrice": 1618
+      "MinPrice": 1733,
+      "MaxPrice": 2335
     },
     {
       "Period": "3 Weeks",
-      "MinPrice": 1827,
-      "MaxPrice": 2411
+      "MinPrice": 2583,
+      "MaxPrice": 3504
+    },
+    {
+      "Period": "Long week-end",
+      "MinPrice": 424,
+      "MaxPrice": 664
+    },
+    {
+      "Period": "Midweek",
+      "MinPrice": 424,
+      "MaxPrice": 661
     }
   ],
   "ExceedNumberOfBabies": 1,
   "NumberOfStars": 3,
-  "DimensionM2": 100,
+  "DimensionM2": 66,
   "Bathrooms": 1,
   "Bedrooms": 2,
   "Location": {
     "Address": {
-      "PostalCode": "2572",
+      "PostalCode": "3874",
       "Country": "Oostenrijk",
       "Region": "Nieder\u00f6sterreich / Wenen",
-      "City": "Kaumberg",
+      "City": "Litschau",
       "Subcity": ""
     },
-    "Latitude": 15.893185,
-    "Longitude": 48.019087
+    "Latitude": 15.04879,
+    "Longitude": 48.95052
   },
-  "PropertyId": "AT-2572-01",
-  "Images": "http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415426806550.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415930708253.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415863047329.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415490414618.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415453612577.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20150518253201685208.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120291567064.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20141112354838728296.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_201501148422441437.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415832070723.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415663055275.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2017121952300424640.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2017121952301346333.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415522924791.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415978946247.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20150518270487067276.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2016072738072639900.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415707898744.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415756363517.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415781858464.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415811809660.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415408165553.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20140224871242514171.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20140224871227023947.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_20150518270373529328.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012416315646758.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014101427507518965.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120291147248.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012416341580547.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012416295733663.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014012415382869475.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120284592242.jpg,http://cdn.leisure-group.net/photo/web/2048x1365/76191_lsr_2014103120293491888.jpg",
-  "Amenities": "Landelijk,Niet roken,WiFi,oven,wasmachine,tuin,Huisdieren niet toegestaan"
+  "PropertyId": "AT-3874-02",
+  "Images": "http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_2014040134170289115.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_20131227192309564838.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_20131227192310048911.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_20131227192304774151.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_20131227192308618822.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112167776609006.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112167778319611.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112169107683057.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112169102156411.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112167771405485.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112169105299615.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112169108472349.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_2014040134751605741.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112169106107155.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_2014040134708507188.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_20131227192305559399.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112167768738877.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_20131227192304187692.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_201403112167767676816.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_2014040134126877367.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_2014040134142904182.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_2014040134065428348.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_2014040134230828914.jpg,http://cdn.leisure-group.net/photo/web/330x220/85483_lsr_20131227192432110290.jpg",
+  "Amenities": "Op vakantiepark,Niet roken,WiFi,tuin,zwembad,fietsen beschikbaar,kinderbed,kinderstoel,Huisdieren toegestaan"
 }
