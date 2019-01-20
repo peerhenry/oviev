@@ -4,3 +4,5 @@ build
 dist
 .vscode
 __pycache__
+data-package-1.json
+data-package-*.json
