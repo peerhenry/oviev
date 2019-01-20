@@ -1,6 +1,6 @@
 validLayoutItems = [
-  '10400', # Zwembar
-  '10358', #  Tuin
+  '10400', # Zwembad
+  '10358', # Tuin
   '10150', # Afwasmachine  
   '10040', # Open haard
   '10354', # Airconditioning
@@ -189,11 +189,18 @@ def compileHouseData(house, houseExtra, refDics):
 
   return compiled
 
+# todo: prompt user for photo size
 def extractImageUrls(thing):
   urls = []
   contents = thing['TypeContents']
   for content in contents:
-    firstVersion = content["Versions"][0]
+    firstVersion = content["Versions"][4] # 4: 600x400
     urls.append('http://'+firstVersion["URL"])
   return urls
+# version resolutions:
+# 0 - 2048x1365
+# 1 - 1024x683
+# 2 - 750x500
+# 3 - 600x400
+# 4 - 330x220
   

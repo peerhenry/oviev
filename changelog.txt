@@ -1,5 +1,5 @@
 
-23-12-2018
+V2 23-12-2018
 - renamed 'Area' to 'DimensionM2' in order to be consistent with original data
 - capitalized all keys
 - removed CreationDate
