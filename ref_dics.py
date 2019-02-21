@@ -17,6 +17,7 @@ class RefDics:
   def writeDicsToFiles(self, path):
     self.writeDicToFile(self.regions, path,  'regions')
     self.writeDicToFile(self.properties, path, 'properties')
+    self.writeDicToFile(self.propertyTypes, path, 'propertyTypes')
     self.writeDicToFile(self.layoutItems, path, 'layoutItems')
     self.writeDicToFile(self.layoutDetails, path, 'layoutDetails')
 
@@ -55,7 +56,7 @@ class RefDics:
     return self.resolve(number, self.regions, 'regions')
 
   def resolvePropertyType(self, number):
-    return self.resolve(number, self.regions, 'property types')
+    return self.resolve(number, self.propertyTypes, 'property types')
 
   def resolveProperty(self, number):
     return self.resolve(number, self.properties, 'properties')

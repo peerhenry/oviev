@@ -1,4 +1,13 @@
 
+v4 21-02-2019
+- fix HouseType: EN -> NL
+- 'Properties' toegevoegd met extra data over huis (soort, situering, ligging, etc.)
+- meerdere images CSV's voor verschillende resoluties
+
+V3 20-01-2019
+- Genereer leesbare reference data
+- image url wordt nu variant 4 gekozen => kleinere resolutie 600x400
+
 V2 23-12-2018
 - renamed 'Area' to 'DimensionM2' in order to be consistent with original data
 - capitalized all keys
@@ -20,7 +29,3 @@ V2 23-12-2018
 - images are formatted as a CSV
 - images are prepended http://
 
-
-V3 20-01-2019
-- Genereer leesbare reference data
-- image url wordt nu variant 4 gekozen => kleinere resolutie 600x400

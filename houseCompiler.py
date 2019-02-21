@@ -35,7 +35,7 @@ validProperties = [
 ]
 
 validPropertyTypes = [
-  '60' # Gecertificeerd voor mindervaliden  
+  '60', # Gecertificeerd voor mindervaliden
 ]
 
 def jsonHasKeys(jsonData, keys):
@@ -75,7 +75,6 @@ def compileHouseData(house, houseExtra, refDics):
   media = houseExtra['MediaV2']
   properties = houseExtra['PropertiesV1']
   layout = houseExtra['LayoutExtendedV2']
-
   houseType = house['HouseType']
   skiArea = house['SkiArea']
   city = langData['City']
@@ -99,50 +98,23 @@ def compileHouseData(house, houseExtra, refDics):
   for amn in costsOnSite:
     compiledCostsOnSite.append(amn['Description']+' '+amn['Value'])
   
-  amenities = []
-  
-  compiledPropertiesV1 = [] # todo: use refDics.properties
+  compiled_properties = {}
   for entry in properties:
     typenr = entry['TypeNumber']
-    if str(typenr) in validPropertyTypes:
-      pType = refDics.resolvePropertyType(typenr)
-      if not pType in amenities:
-        amenities.append(pType)
-    for c in entry['TypeContents']:
-      thing = refDics.resolveProperty(c)
-      compiledPropertiesV1.append(thing)
-      if str(c) in validProperties and not thing in amenities:
-        amenities.append(thing)
-
-  compiledLayoutExtendedV2 = [] # todo: use refDics.layoutItems & refDics.layoutDetails
-  for entry in layout:
-    itemKey = entry['Item']
-    item = refDics.resolvelayoutItem(itemKey)
-    thing = {
-      'Item': item
-    }
-    if str(itemKey) in validLayoutItems and not item in amenities:
-      amenities.append(item)
-    if 'Details' in entry:
-      thing['Details'] = []
-      for detailKey in entry['Details']:
-        detail = refDics.resolveLayoutDetail(detailKey)
-        thing['Details'].append(detail)
-    compiledLayoutExtendedV2.append(thing)
+    pType = refDics.resolvePropertyType(typenr)
+    contentList = []
+    for contentCode in entry['TypeContents']:
+      content = refDics.resolveProperty(contentCode)
+      contentList.append(content)
+    compiled_properties[pType] = contentList
   
-  if skiArea:
-    amenities.append('In een skigebied')
-  
-  if 'Pets' in house:
-    if house['Pets'] == 'no':
-      amenities.append('Huisdieren niet toegestaan')
-    else:
-      amenities.append('Huisdieren toegestaan')
+  amenities = extractAmenities(house, houseExtra, refDics)
 
   compiled = { 'Title': title }
   compiled['Description'] = langData['Description']
   compiled['Meta'] = meta
-  compiled['HouseType'] = houseType
+  # compiled['HouseType'] = houseType # this is english
+  compiled['HouseType'] = compiled_properties['Soort'][0] # just take the first entry in list of types
   compiled['MaxPersons'] = maxPersons
   compiled['SkiArea'] = skiArea
   compiled['HolidayPark'] = holidayPark
@@ -195,7 +167,48 @@ def compileHouseData(house, houseExtra, refDics):
   # compiled['LayoutExtendedV2'] = compiledLayoutExtendedV2 # debug
   compiled['Amenities'] = ','.join(amenities)
 
+  compiled['Properties'] = compiled_properties
+
   return compiled
+
+def extractAmenities(house, houseExtra, refDics):
+  properties = houseExtra['PropertiesV1']
+  layout = houseExtra['LayoutExtendedV2']
+  amenities = []
+  # add items from properties to amenities
+  for entry in properties:
+    typenr = entry['TypeNumber']
+    if str(typenr) in validPropertyTypes:
+      pType = refDics.resolvePropertyType(typenr)
+      if not pType in amenities:
+        amenities.append(pType)
+    for c in entry['TypeContents']:
+      thing = refDics.resolveProperty(c)
+      if str(c) in validProperties and not thing in amenities:
+        amenities.append(thing)
+  # add layout items to amenities
+  for entry in layout:
+    itemKey = entry['Item']
+    item = refDics.resolvelayoutItem(itemKey)
+    thing = {
+      'Item': item
+    }
+    if str(itemKey) in validLayoutItems and not item in amenities:
+      amenities.append(item)
+    if 'Details' in entry:
+      thing['Details'] = []
+      for detailKey in entry['Details']:
+        detail = refDics.resolveLayoutDetail(detailKey)
+        thing['Details'].append(detail)
+  # add other amenities
+  if 'SkiArea' in house:
+    amenities.append('In een skigebied')
+  if 'Pets' in house:
+    if house['Pets'] == 'no':
+      amenities.append('Huisdieren niet toegestaan')
+    else:
+      amenities.append('Huisdieren toegestaan')
+  return amenities
 
 # todo: prompt user for photo size
 def extractImageUrls(thing, variationIndex):
