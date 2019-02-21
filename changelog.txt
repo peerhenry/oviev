@@ -3,9 +3,10 @@ v4 21-02-2019
 - Alle gegenereerde data wordt geplaatst in subfolder "generated" met daarbinnen "example", "reference" en "packaged"
 - Fix HouseType: EN -> NL
 - Veld 'Properties' toegevoegd met extra data over huis (soort, situering, ligging, etc.)
-- Meerdere image CSV's voor verschillende resoluties
 - Fix latitude longitude bug
 - Transformeer "Minder validen" naar "Midnervaliden"
+- Meerdere image CSV's voor verschillende resoluties (om uit te kiezen)
+- Limiet op image CSV voor 10 plaatjes
 
 V3 20-01-2019
 - Genereer leesbare reference data

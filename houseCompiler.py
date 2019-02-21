@@ -32,10 +32,10 @@ validProperties = [
 ]
 
 validPropertyTypes = [
-  '60', # Gecertificeerd voor mindervaliden
-  '63', # Aangepaste douche  
-  '64', # Aangepast toilet  
-  '65', # Minder validen  - lift
+  '60', # Minder validen - Gecertificeerd
+  '63', # Minder validen - Aangepaste douche
+  '64', # Minder validen - Aangepast toilet  
+  '65', # Minder validen - Lift
 ]
 
 def jsonHasKeys(jsonData, keys):
