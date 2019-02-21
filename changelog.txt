@@ -2,7 +2,8 @@
 v4 21-02-2019
 - fix HouseType: EN -> NL
 - 'Properties' toegevoegd met extra data over huis (soort, situering, ligging, etc.)
-- meerdere images CSV's voor verschillende resoluties
+- meerdere image CSV's voor verschillende resoluties
+- fix latitude longitude bug
 
 V3 20-01-2019
 - Genereer leesbare reference data

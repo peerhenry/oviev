@@ -151,16 +151,21 @@ def compileHouseData(house, houseExtra, refDics):
 
   for thing in media:
     if thing['Type'] == 'Photos':
-      urls = extractImageUrls(thing, 3)
-      compiled['Images'] = ','.join(urls)
       urls_1024 = extractImageUrls(thing, 1)
-      compiled['Images_1024x683'] = ','.join(urls_1024)
+      images_1024 = ','.join(urls_1024)
+      compiled['Images_1024x683'] = images_1024
+      
       urls_750 = extractImageUrls(thing, 2)
       compiled['Images_750x500'] = ','.join(urls_750)
+      
       urls_600 = extractImageUrls(thing, 3)
       compiled['Images_600x400'] = ','.join(urls_600)
+
       urls_330 = extractImageUrls(thing, 4)
-      compiled['Images_330x220'] = ','.join(urls_330)
+      images_330 = ','.join(urls_330)
+      compiled['Images_330x220'] = images_330
+
+      compiled['Images'] = images_1024
   
   # compiled['CostsOnSite'] = compiledCostsOnSite # debug
   # compiled['PropertiesV1'] = compiledPropertiesV1 # debug
