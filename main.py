@@ -1,10 +1,16 @@
 import requests
 import json
 import sys
+import os
 import msvcrt as m
 from leisure_partners_fetcher import LeisurePartnersFetcher as Fetcher
 from ref_dics import RefDics
 import houseCompiler
+
+outDir = 'generated'
+exampleDir = 'example'
+referenceDir = 'reference'
+packageDir = 'packaged'
 
 allItems = [
   'BasicInformationV3',
@@ -33,18 +39,23 @@ packageCounter = 1
 
 def main():
   intro()
+  print('creating output directories...')
+  checkCreateOutDirs()
   print('fetching list of houses...')
   fetcher = Fetcher()
   listOfHouses = fetcher.fetchListOfHouses()
+  writeHousCodes(listOfHouses)
   count = str(len(listOfHouses))
   print('Succesfully retrieved ' + count + ' results!')
   print('*')
   refDics = RefDics(fetcher)
+  refDics.writeDicsToFiles(outDir + '/' + referenceDir)
   house1 = listOfHouses[1]
   generateDataExamples(fetcher, house1, refDics)
   print('*')
-  print('Ready to start data ofetch for each house...')
+  print('Ready to start data fetch for each house...')
   print('Note that downloading all data at once can take up to 2 hours...')
+  # todo: prompt for starting entry in the data package
   setting = promptForSettings()
   packageLimit = setting['packageLimit']
   downloadLimit = setting['downloadLimit']
@@ -94,6 +105,10 @@ def promtForNumber(prompt):
 
 # ^^^^^^^^^^^^^^^^^^^^ PROMPT ^^^^^^^^^^^^^^^^^^^^
 
+def writeHousCodes(listOfHouses):
+  codes = list(map(lambda house: house['HouseCode'], listOfHouses))
+  writeToJson(outDir + '/' + 'list_of_house_codes', codes)
+
 def handleListOfHouses(fetcher, listOfHouses, refDics, packageLimit, downloadLimit):
   count = len(listOfHouses)
   if downloadLimit >= 1:
@@ -133,24 +148,46 @@ def handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, coun
   serializable = {
     'Houses': compiledHouses
   }
-  writeToJson('data-package-' + str(packageCounter), serializable)
+  writeDataPackage('data-package-' + str(packageCounter), serializable)
   packageCounter += 1
 
+def checkCreateOutDirs():
+  if not os.path.exists(outDir):
+    os.makedirs(outDir)
+  if not os.path.exists(outDir + '/' + exampleDir):
+    os.makedirs(outDir + '/' + exampleDir)
+  if not os.path.exists(outDir + '/' + packageDir):
+    os.makedirs(outDir + '/' + packageDir)
+  if not os.path.exists(outDir + '/' + referenceDir):
+    os.makedirs(outDir + '/' + referenceDir)
+
 def generateDataExamples(fetcher, house, refDics):
-  writeToJson('1. data-house-list-item', house)
+  writeExampleData('1. data-house-list-item', house)
   code = house['HouseCode']
   allDetails = fetcher.fetchHouseDetails([ code ], allItems)
-  writeToJson('2. data-house-all-details', allDetails)
+  writeExampleData('2. data-house-all-details', allDetails)
   distilledData = distillHouseData(fetcher, house)
   del distilledData['LanguagePackNLV4']['GuestBook']
-  writeToJson('3. data-house-distilled', distilledData)
+  writeExampleData('3. data-house-distilled', distilledData)
   compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, refDics)
-  writeToJson('4. data-house-compiled', compileHouseData)
+  writeExampleData('4. data-house-compiled', compileHouseData)
 
 def distillHouseData(fetcher, house):
   code = house['HouseCode']
   distilled = fetcher.fetchHouseDetails([ code ], distilledItems )
   return distilled
+
+def writeExampleData(fileName, jsonObject):
+  filePath = outDir + '/' + exampleDir + '/' + fileName
+  writeToJson(filePath, jsonObject)
+
+def writeReferenceData(fileName, jsonObject):
+  filePath = outDir + '/' + referenceDir + '/' + fileName
+  writeToJson(filePath, jsonObject)
+
+def writeDataPackage(fileName, jsonObject):
+  filePath = outDir + '/' + packageDir + '/' + fileName
+  writeToJson(filePath, jsonObject)
 
 def writeToJson(fileName, jsonObject):
   fileNameExt = fileName + '.json'
@@ -167,7 +204,7 @@ def outro():
 
 def printProgress(counter, count):
   percent = round((float(counter) / count)*100)
-  line = str(counter)+'/'+str(count) + ' ' + str(percent) + '%'
+  line = str(counter) + '/' + str(count) + ' ' + str(percent) + '%'
   print(line, end='\r')
 
 main()

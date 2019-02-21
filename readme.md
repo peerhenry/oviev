@@ -1,4 +1,9 @@
 ## stages
+
+- run with `python main.py`
+- build with `pyinstaller main.py`
+
+## stages
 - fetches list of houses
 - fetches reference data in constructor of RefDics, puts everything in dictionaries (may be written to file)
 - generate example data*

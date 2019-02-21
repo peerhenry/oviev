@@ -179,8 +179,16 @@ def compileHouseData(house, houseExtra, refDics):
 
   for thing in media:
     if thing['Type'] == 'Photos':
-      urls = extractImageUrls(thing)
+      urls = extractImageUrls(thing, 3)
       compiled['Images'] = ','.join(urls)
+      urls_1024 = extractImageUrls(thing, 1)
+      compiled['Images_1024x683'] = ','.join(urls_1024)
+      urls_750 = extractImageUrls(thing, 2)
+      compiled['Images_750x500'] = ','.join(urls_750)
+      urls_600 = extractImageUrls(thing, 3)
+      compiled['Images_600x400'] = ','.join(urls_600)
+      urls_330 = extractImageUrls(thing, 4)
+      compiled['Images_330x220'] = ','.join(urls_330)
   
   # compiled['CostsOnSite'] = compiledCostsOnSite # debug
   # compiled['PropertiesV1'] = compiledPropertiesV1 # debug
@@ -190,14 +198,14 @@ def compileHouseData(house, houseExtra, refDics):
   return compiled
 
 # todo: prompt user for photo size
-def extractImageUrls(thing):
+def extractImageUrls(thing, variationIndex):
   urls = []
   contents = thing['TypeContents']
   for content in contents:
-    firstVersion = content["Versions"][4] # 4: 600x400
+    firstVersion = content["Versions"][variationIndex]
     urls.append('http://'+firstVersion["URL"])
   return urls
-# version resolutions:
+# version resolutions by variationIndex:
 # 0 - 2048x1365
 # 1 - 1024x683
 # 2 - 750x500

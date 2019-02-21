@@ -13,13 +13,15 @@ class RefDics:
     self.properties = self.generateRefProperties()
     self.layoutItems = self.generateRefLayoutItems()
     self.layoutDetails = self.generateRefLayoutDetails()
-    # self.writeDicToFile(self.regions, 'regions')
-    # self.writeDicToFile(self.properties, 'properties')
-    # self.writeDicToFile(self.layoutItems, 'layoutItems')
-    # self.writeDicToFile(self.layoutDetails, 'layoutDetails')
-    
-  def writeDicToFile(self, dic, name):
-    with open('ref_'+name+'.txt', 'w') as file:
+  
+  def writeDicsToFiles(self, path):
+    self.writeDicToFile(self.regions, path,  'regions')
+    self.writeDicToFile(self.properties, path, 'properties')
+    self.writeDicToFile(self.layoutItems, path, 'layoutItems')
+    self.writeDicToFile(self.layoutDetails, path, 'layoutDetails')
+
+  def writeDicToFile(self, dic, path, name):
+    with open(path + '/ref_'+name+'.txt', 'w') as file:
       file.write(json.dumps(dic, indent=4))
   
   def generateRefRegions(self):
