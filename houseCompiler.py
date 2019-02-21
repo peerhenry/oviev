@@ -141,8 +141,8 @@ def compileHouseData(house, houseExtra, refDics):
       'City': city,
       'Subcity': subcity
     },
-    'Latitude': basics['WGS84Longitude'],
-    'Longitude': basics['WGS84Latitude']
+    'Latitude': basics['WGS84Latitude'],
+    'Longitude': basics['WGS84Longitude']
   }
   compiled['PropertyId'] = house['HouseCode']
   # ? optional title
