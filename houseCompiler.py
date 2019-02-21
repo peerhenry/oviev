@@ -8,14 +8,14 @@ validLayoutItems = [
   '10362', # BBQ  
   '10130', # Oven  
   '10140', # Magnetron  
-  '10560', # Kinderstoel	10560
+  '10560', # Kinderstoel
   '10550', # Kinderbed
   '10570', # Kinderbox
   '3000', # Skiberging
   '10540', # Fietsen beschikbaar  
   '1170', # Jacuzzi / Bubbelbad  
   '1150', # Sauna  
-  '1160', # Turks stoombad  
+  '1160', # Turks stoombad
   '10235' # Zonnebank / solarium
 ]
 
@@ -27,15 +27,15 @@ validProperties = [
   '360', # Landelijk    
   '504', # Roken toegestaan
   '502', # Niet roken
-  '65', # Minder validen  - lift
-  '64', # Aangepast toilet  
-  '63', # Aangepaste douche  
   '6070', # Brede doorgang mindervaliden  
   '548'
 ]
 
 validPropertyTypes = [
   '60', # Gecertificeerd voor mindervaliden
+  '63', # Aangepaste douche  
+  '64', # Aangepast toilet  
+  '65', # Minder validen  - lift
 ]
 
 def jsonHasKeys(jsonData, keys):
@@ -185,6 +185,8 @@ def extractAmenities(house, houseExtra, refDics):
     typenr = entry['TypeNumber']
     if str(typenr) in validPropertyTypes:
       pType = refDics.resolvePropertyType(typenr)
+      if(typenr >= 60):
+        pType.replace("Minder validen", "Mindervaliden")
       if not pType in amenities:
         amenities.append(pType)
     for c in entry['TypeContents']:
@@ -219,9 +221,14 @@ def extractAmenities(house, houseExtra, refDics):
 def extractImageUrls(thing, variationIndex):
   urls = []
   contents = thing['TypeContents']
+  limit = 10
+  counter = 0
   for content in contents:
     firstVersion = content["Versions"][variationIndex]
     urls.append('http://'+firstVersion["URL"])
+    counter += 1
+    if(counter >= limit):
+      break
   return urls
 # version resolutions by variationIndex:
 # 0 - 2048x1365
