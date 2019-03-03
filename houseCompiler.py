@@ -80,7 +80,6 @@ def compileHouseData(house, houseExtra, refDics):
   city = langData['City']
   subcity = ''
   maxPersons = str(basics['MaxNumberOfPersons'])
-  title = houseType+' huren in '+city+', max '+maxPersons+' personen'
   holidayPark = basics['HolidayPark']
   countryCode = basics['Country']
   country = refDics.resolveRegion(countryCode)
@@ -110,11 +109,14 @@ def compileHouseData(house, houseExtra, refDics):
   
   amenities = extractAmenities(house, houseExtra, refDics)
 
+  compiledHousetype = compiled_properties['Soort'][0] # just take the first entry in list of types
+  title = compiledHousetype +' huren in '+city+', max '+maxPersons+' personen'
+
   compiled = { 'Title': title }
   compiled['Description'] = langData['Description']
   compiled['Meta'] = meta
   # compiled['HouseType'] = houseType # this is english
-  compiled['HouseType'] = compiled_properties['Soort'][0] # just take the first entry in list of types
+  compiled['HouseType'] = compiledHousetype
   compiled['MaxPersons'] = maxPersons
   compiled['SkiArea'] = skiArea
   compiled['HolidayPark'] = holidayPark
