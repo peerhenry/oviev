@@ -41,7 +41,7 @@ validPropertyTypes = [
 def jsonHasKeys(jsonData, keys):
   for key in keys:
     if key not in jsonData:
-      print('invalid data, missing key: ', key)
+      print('invalid data, missing key:', key)
       return False
   return True
 

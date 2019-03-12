@@ -59,7 +59,9 @@ class RefDics:
     return self.resolve(number, self.propertyTypes, 'property types')
 
   def resolveProperty(self, number):
-    return self.resolve(number, self.properties, 'properties')
+    output = self.resolve(number, self.properties, 'properties')
+    # output = output.replace(">=", "min.") # todo: write unit test for this
+    return output
   
   def resolvelayoutItem(self, number):
     return self.resolve(number, self.layoutItems, 'layoutItems')
