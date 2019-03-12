@@ -74,7 +74,6 @@ def compileHouseData(house, houseExtra, refDics):
   langData = houseExtra['LanguagePackNLV4']
   media = houseExtra['MediaV2']
   properties = houseExtra['PropertiesV1']
-  layout = houseExtra['LayoutExtendedV2']
   houseType = house['HouseType']
   skiArea = house['SkiArea']
   city = langData['City']
@@ -85,12 +84,6 @@ def compileHouseData(house, houseExtra, refDics):
   country = refDics.resolveRegion(countryCode)
   regionCode = basics['Region']
   region = refDics.resolveRegion(regionCode)
-  formattedLocation = city
-  if 'SubCity' in langData and langData['SubCity']:
-    subcity = langData['SubCity']
-    formattedLocation = formattedLocation + ', ' + langData['SubCity']
-  formattedLocation = formattedLocation + ', ' + region + ', ' + country
-  meta = houseType+' huren voor '+maxPersons+' personen in '+formattedLocation
 
   costsOnSite = langData['CostsOnSite']
   compiledCostsOnSite = []
@@ -110,6 +103,12 @@ def compileHouseData(house, houseExtra, refDics):
   amenities = extractAmenities(house, houseExtra, refDics)
 
   compiledHousetype = compiled_properties['Soort'][0] # just take the first entry in list of types
+  formattedLocation = city
+  if 'SubCity' in langData and langData['SubCity']:
+    subcity = langData['SubCity']
+    formattedLocation = formattedLocation + ', ' + langData['SubCity']
+  formattedLocation = formattedLocation + ', ' + region + ', ' + country
+  meta = compiledHousetype+' huren voor '+maxPersons+' personen in '+formattedLocation
   title = compiledHousetype +' huren in '+city+', max '+maxPersons+' personen'
 
   compiled = { 'Title': title }
