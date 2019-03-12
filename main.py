@@ -55,12 +55,9 @@ def main():
   print('*')
   print('Ready to start data fetch for each house...')
   print('Note that downloading all data at once can take up to 2 hours...')
-  # todo: prompt for starting entry in the data package
   setting = promptForSettings()
-  packageLimit = setting['packageLimit']
-  downloadLimit = setting['downloadLimit']
   print('Starting data ofetch for each house...')
-  handleListOfHouses(fetcher, listOfHouses, refDics, packageLimit, downloadLimit)
+  handleListOfHouses(fetcher, listOfHouses, refDics, setting)
   print('*')
   outro()
 
@@ -81,6 +78,9 @@ def promptForSettings():
     settings['downloadLimit'] = promtForNumber('howmany entries would you like to download?')
   promt1 = 'What is the maximum amount of entries you want in a package? (recommended: 200)'
   settings['packageLimit'] = promtForNumber(promt1)
+  customStart = promtForBool('Would you like to set a custom starting index (for example 10 to start packaging at the tenth entry)? (y/n)')
+  if customStart:
+    settings['offset'] = promtForNumber('Please enter the index where you would like the packaging to begin')
   return settings
 
 def promtForBool(prompt):
@@ -103,18 +103,34 @@ def promtForNumber(prompt):
   else:
     return int(limit)
 
+def promptForString(prompt):
+  print(prompt)
+  return input()
+
 # ^^^^^^^^^^^^^^^^^^^^ PROMPT ^^^^^^^^^^^^^^^^^^^^
 
 def writeHousCodes(listOfHouses):
   codes = list(map(lambda house: house['HouseCode'], listOfHouses))
+  # enumerated_codes = [enumerate(codes)]
   writeToJson(outDir + '/' + 'list_of_house_codes', codes)
 
-def handleListOfHouses(fetcher, listOfHouses, refDics, packageLimit, downloadLimit):
-  count = len(listOfHouses)
-  if downloadLimit >= 1:
-    count = downloadLimit
-  while counter < count:
-    handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, count)
+def handleListOfHouses(fetcher, listOfHouses, refDics, settings):
+  packageLimit = settings['packageLimit']
+  downloadLimit = settings['downloadLimit']
+  offset = determineOffset(settings, listOfHouses)
+  limit = len(listOfHouses) - offset
+  if downloadLimit >= 1 and downloadLimit < limit:
+    limit = downloadLimit
+  while counter < limit:
+    handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, limit, offset)
+
+def determineOffset(settings, listOfHouses):
+  if 'offset' in settings:
+    offset = settings['offset']
+    if offset >= len(listOfHouses):
+      print('Error: the offset '+offset+' must be less than the length of houses '+len(listOfHouses))
+    return offset
+  else: return 0
 
 def houseHasValidBrand(house):
   brands = house['Brands']
@@ -129,22 +145,23 @@ def houseIsValid(house):
     return False
   return houseHasValidBrand(house)
 
-def handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, count):
+def handleListOfHousesInRange(fetcher, listOfHouses, refDics, packageLimit, limit, offset):
   global counter
   global compileCounter
   global packageCounter
   compiledHouses = []
   for n in range(packageLimit):
-    house = listOfHouses[counter]
+    house = listOfHouses[offset + counter]
     counter += 1
     valid = houseIsValid(house)
     if valid:
       distilledData = distillHouseData(fetcher, house)
       compileHouseData = houseCompiler.tryCompileHouseData(house, distilledData, refDics)
-      compiledHouses.append(compileHouseData)
-      compileCounter += 1
-    if compileCounter >= count: break
-    printProgress(counter, count)
+      if compileHouseData:
+        compiledHouses.append(compileHouseData)
+        compileCounter += 1
+    if compileCounter >= limit: break
+    printProgress(counter, limit)
   serializable = {
     'Houses': compiledHouses
   }

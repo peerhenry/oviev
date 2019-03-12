@@ -39,28 +39,50 @@ validPropertyTypes = [
 ]
 
 def jsonHasKeys(jsonData, keys):
+  result = { 'isValid': True }
   for key in keys:
     if key not in jsonData:
-      print('invalid data, missing key:', key)
-      return False
-  return True
+      msg = 'invalid data, missing key: ' + key
+      result['isValid'] = False
+      result['message'] = msg
+      return result
+  return result
 
 def validateHouse(house):
   requiredKeys = ['HouseCode', 'HouseType']
   return jsonHasKeys(house, requiredKeys)
 
+def langDataIsValid(langData):
+  requiredKeys = ['Description', 'City']
+  result = jsonHasKeys(langData, requiredKeys)
+  if not result['isValid']: return result
+  if langData['City'] == None:
+    result['isValid'] = None
+    result['message'] = 'City in langdata is None'
+  return result
+
 def validateHouseExtra(houseExtra):
-  requiredKeys = ['HouseCode', 'BasicInformationV3', 'LanguagePackNLV4', 'MinMaxPriceV1', 'PropertiesV1', 'LayoutExtendedV2']
-  validLevel1 = jsonHasKeys(houseExtra, requiredKeys)
-  if not validLevel1: return False
-  return True
+  requiredKeys = ['BasicInformationV3', 'LanguagePackNLV4', 'MinMaxPriceV1', 'PropertiesV1', 'LayoutExtendedV2']
+  validResult = jsonHasKeys(houseExtra, requiredKeys)
+  if not validResult['isValid']: return validResult
+  validResult = langDataIsValid(houseExtra['LanguagePackNLV4'])
+  return validResult
+
+def validateHouseData(house, houseExtra):
+  validHouseResult = validateHouse(house)
+  if not validHouseResult['isValid']:
+    return validHouseResult
+  validHouseExtra = validateHouseExtra(houseExtra)
+  if not validHouseExtra['isValid']:
+    return validHouseExtra
+  return { 'isValid': True }
 
 def tryCompileHouseData(house, houseExtra, refDics):
-  validHouse = validateHouse(house)
-  if not validHouse: return ''
-  validHouseExtra = validateHouseExtra(houseExtra)
-  if not validHouseExtra: return ''
-  return compileHouseData(house, houseExtra, refDics)
+  validResult = validateHouseData(house, houseExtra)
+  if not validResult['isValid']:
+    print('invalid data:', validResult['message'])
+    return ''
+  else: return compileHouseData(house, houseExtra, refDics)
 
 def resolveRegion(regCode, regDic):
   if regCode in regDic:
@@ -72,24 +94,120 @@ def resolveRegion(regCode, regDic):
 def compileHouseData(house, houseExtra, refDics):
   basics = houseExtra['BasicInformationV3']
   langData = houseExtra['LanguagePackNLV4']
-  media = houseExtra['MediaV2']
-  properties = houseExtra['PropertiesV1']
-  houseType = house['HouseType']
-  skiArea = house['SkiArea']
-  city = langData['City']
-  subcity = ''
   maxPersons = str(basics['MaxNumberOfPersons'])
-  holidayPark = basics['HolidayPark']
+  compiled_properties = compileProperties(houseExtra, refDics)
+  compiledHousetype = compileHouseType(compiled_properties)
+  location = extractLocation(langData, basics, refDics)
+  compiled = { 'Title': formatTitle(compiledHousetype, location, maxPersons) }
+  compiled['Description'] = langData['Description']
+  compiled['Meta'] = formatMeta(compiledHousetype, maxPersons, location)
+  compiled['HouseType'] = compiledHousetype
+  compiled['MaxPersons'] = maxPersons
+  compiled['SkiArea'] = house['SkiArea']
+  compiled['HolidayPark'] = basics['HolidayPark']
+  compiled['MinMaxPrice'] = houseExtra['MinMaxPriceV1'] # price, pricesuffix
+  compiled['ExceedNumberOfBabies'] = basics['ExceedNumberOfBabies']
+  compiled['NumberOfStars'] = basics['NumberOfStars']
+  compiled['DimensionM2'] = basics['DimensionM2']
+  compiled['Bathrooms'] = basics['NumberOfBathrooms']
+  compiled['Bedrooms'] = basics['NumberOfBedrooms']
+  compiled['Location'] = compileLocation(basics, location)
+  compiled['PropertyId'] = house['HouseCode']
+  compileImages(houseExtra, compiled)
+  compiled_amenities = compileAmenities(house, houseExtra, refDics)
+  compiled['Amenities'] = compiled_amenities
+  compiled['Properties'] = compiled_properties
+  return compiled
+
+def extractLocation(langData, basics, refDics):
   countryCode = basics['Country']
   country = refDics.resolveRegion(countryCode)
   regionCode = basics['Region']
   region = refDics.resolveRegion(regionCode)
+  city = langData['City']
+  subcity = ''
+  if 'SubCity' in langData and langData['SubCity']:
+    subcity = langData['SubCity']
+  return {
+    'City': city,
+    'Country': country,
+    'Region': region,
+    'SubCity': subcity
+  }
 
-  costsOnSite = langData['CostsOnSite']
+def compileImages(houseExtra, compiled):
+  media = houseExtra['MediaV2']
+  for thing in media:
+    if thing['Type'] == 'Photos':
+      urls_1024 = extractImageUrls(thing, 1)
+      images_1024 = ','.join(urls_1024)
+      compiled['Images_1024x683'] = images_1024
+
+      urls_750 = extractImageUrls(thing, 2)
+      compiled['Images_750x500'] = ','.join(urls_750)
+
+      urls_600 = extractImageUrls(thing, 3)
+      compiled['Images_600x400'] = ','.join(urls_600)
+
+      urls_330 = extractImageUrls(thing, 4)
+      images_330 = ','.join(urls_330)
+      compiled['Images_330x220'] = images_330
+
+      compiled['Images'] = images_1024
+
+def compileAmenities(house, houseExtra, refDics):
+  amenities = extractAmenities(house, houseExtra, refDics)
+  compiled_amenities = ','.join(amenities)
+  return compiled_amenities
+
+def formatTitle(compiledHousetype, location, maxPersons):
+  title = ''
+  if 'City' in location and location['City']:
+    title = compiledHousetype + ' huren in ' + location['City'] + ', max ' + maxPersons + ' personen'
+  else: 
+    title = compiledHousetype + ' huren voor max ' + maxPersons + ' personen'
+  return title
+
+def formatMeta(compiledHousetype, maxPersons, location):
+  formattedLocation = formatLocation(location)
+  meta = compiledHousetype+' huren voor '+maxPersons+' personen in '+formattedLocation
+  return meta
+
+def formatLocation(location):
+  formattedLocation = location['City']
+  if location['SubCity']:
+    formattedLocation = formattedLocation + ', ' + location['SubCity']
+  formattedLocation = formattedLocation + ', ' + location['Region'] + ', ' + location['Country']
+  return formattedLocation
+
+def compileHouseType(compiled_properties):
+  compiledHousetype = compiled_properties['Soort'][0] # just take the first entry in list of types
+  return compiledHousetype
+
+def compileLocation(basics, location):
+  compiledLocation = {
+    'Address': {
+      # missing street address
+      'PostalCode': basics['ZipPostalCode'],
+      'Country': location['Country'],
+      'Region': location['Region'],
+      'City': location['City'],
+      'Subcity': location['SubCity']
+    },
+    'Latitude': basics['WGS84Latitude'],
+    'Longitude': basics['WGS84Longitude']
+  }
+  return compiledLocation
+
+def compile_costs_on_site(langData):
   compiledCostsOnSite = []
+  costsOnSite = langData['CostsOnSite']
   for amn in costsOnSite:
     compiledCostsOnSite.append(amn['Description']+' '+amn['Value'])
-  
+  return compiledCostsOnSite
+
+def compileProperties(houseExtra, refDics):
+  properties = houseExtra['PropertiesV1']
   compiled_properties = {}
   for entry in properties:
     typenr = entry['TypeNumber']
@@ -99,83 +217,7 @@ def compileHouseData(house, houseExtra, refDics):
       content = refDics.resolveProperty(contentCode)
       contentList.append(content)
     compiled_properties[pType] = contentList
-  
-  amenities = extractAmenities(house, houseExtra, refDics)
-
-  compiledHousetype = compiled_properties['Soort'][0] # just take the first entry in list of types
-  formattedLocation = city
-  if 'SubCity' in langData and langData['SubCity']:
-    subcity = langData['SubCity']
-    formattedLocation = formattedLocation + ', ' + langData['SubCity']
-  formattedLocation = formattedLocation + ', ' + region + ', ' + country
-  meta = compiledHousetype+' huren voor '+maxPersons+' personen in '+formattedLocation
-  title = compiledHousetype +' huren in '+city+', max '+maxPersons+' personen'
-
-  compiled = { 'Title': title }
-  compiled['Description'] = langData['Description']
-  compiled['Meta'] = meta
-  # compiled['HouseType'] = houseType # this is english
-  compiled['HouseType'] = compiledHousetype
-  compiled['MaxPersons'] = maxPersons
-  compiled['SkiArea'] = skiArea
-  compiled['HolidayPark'] = holidayPark
-  # todo: get currency
-  compiled['MinMaxPrice'] = houseExtra['MinMaxPriceV1'] # price, pricesuffix
-  compiled['ExceedNumberOfBabies'] = basics['ExceedNumberOfBabies']
-  compiled['NumberOfStars'] = basics['NumberOfStars']
-  compiled['DimensionM2'] = basics['DimensionM2']
-  compiled['Bathrooms'] = basics['NumberOfBathrooms']
-  compiled['Bedrooms'] = basics['NumberOfBedrooms']
-  # compiled['CreationDate'] = basics['CreationDate'] # removed per request
-
-  # ? landlord
-  # ? agencies
-  # ? agents
-  # ? sliderimage
-
-  compiled['Location'] = {
-    'Address': {
-      # missing street address
-      'PostalCode': basics['ZipPostalCode'],
-      'Country': country,
-      'Region': region,
-      'City': city,
-      'Subcity': subcity
-    },
-    'Latitude': basics['WGS84Latitude'],
-    'Longitude': basics['WGS84Longitude']
-  }
-  compiled['PropertyId'] = house['HouseCode']
-  # ? optional title
-  # ? custom text instead of price
-  # locations
-
-  for thing in media:
-    if thing['Type'] == 'Photos':
-      urls_1024 = extractImageUrls(thing, 1)
-      images_1024 = ','.join(urls_1024)
-      compiled['Images_1024x683'] = images_1024
-      
-      urls_750 = extractImageUrls(thing, 2)
-      compiled['Images_750x500'] = ','.join(urls_750)
-      
-      urls_600 = extractImageUrls(thing, 3)
-      compiled['Images_600x400'] = ','.join(urls_600)
-
-      urls_330 = extractImageUrls(thing, 4)
-      images_330 = ','.join(urls_330)
-      compiled['Images_330x220'] = images_330
-
-      compiled['Images'] = images_1024
-  
-  # compiled['CostsOnSite'] = compiledCostsOnSite # debug
-  # compiled['PropertiesV1'] = compiledPropertiesV1 # debug
-  # compiled['LayoutExtendedV2'] = compiledLayoutExtendedV2 # debug
-  compiled['Amenities'] = ','.join(amenities)
-
-  compiled['Properties'] = compiled_properties
-
-  return compiled
+  return compiled_properties
 
 def extractAmenities(house, houseExtra, refDics):
   properties = houseExtra['PropertiesV1']
