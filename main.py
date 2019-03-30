@@ -89,7 +89,7 @@ def promtForBool(prompt):
   valid = limit == 'y' or limit == 'n'
   if not valid:
     print('you must enter y or n')
-    return promtForNumber(prompt)
+    return promtForBool(prompt)
   else:
     return limit == 'y'
 
